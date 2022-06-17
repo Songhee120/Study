@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mondial>
+  <country>
+    <name>Albania</name>
+    <area>28750</area>
+    <population>3249136</population>
+    <capital country="AL" id="cty-cid-cia-Albania-Tirane">
+      <name>Tirane</name>
+      <longitude>19.8</longitude>
+      <latitude>41.3</latitude>
+      <population year="87">192000</population>
+    </capital>
+  </country>
+  <country>
+    <name>Turkey</name>
+    <area>780580</area>
+    <population>62484478</population>
+    <capital country="TR" id="cty-Turkey-Ankara">
+      <name>Ankara</name>
+      <longitude>32.8833</longitude>
+      <latitude>39.95</latitude>
+      <population year="94">2782200</population>
+    </capital>
+  </country>
+  <country>
+    <name>France</name>
+    <area>547030</area>
+    <population>58317450</population>
+    <capital country="F" id="cty-France-Paris">
+      <name>Paris</name>
+      <longitude>2.48333</longitude>
+      <latitude>48.8167</latitude>
+      <population year="90">2152423</population>
+      <located_at river="river-Seine" watertype="river"/>
+    </capital>
+  </country>
+  <country>
+    <name>South Korea</name>
+    <area>98480</area>
+    <population>45482291</population>
+    <capital country="ROK" id="cty-cid-cia-South-Korea-2">
+      <name>Seoul</name>
+      <longitude>126.967</longitude>
+      <latitude>37.5667</latitude>
+      <population year="95">10229262</population>
+    </capital>
+  </country>
+  <country>
+    <name>Japan</name>
+    <area>377835</area>
+    <population>125449703</population>
+    <capital country="J" id="cty-Japan-Tokyo">
+      <name>Tokyo</name>
+      <longitude>139.767</longitude>
+      <latitude>35.6833</latitude>
+      <population year="95">7843000</population>
+      <located_at sea="sea-Pacific" watertype="sea"/>
+      <located_on island="island-Honshu"/>
+    </capital>
+  </country>
+  <country>
+    <name>Australia</name>
+    <area>7686850</area>
+    <population>18260863</population>
+    <capital country="AUS" id="cty-cid-cia-Australia-8">
+      <name>Canberra</name>
+      <longitude>149.08</longitude>
+      <latitude>-35.1</latitude>
+      <population year="90">310000</population>
+      <located_at lake="lake-LakeBurleyGriffin" watertype="lake"/>
+      <located_at river="river-MurrumbidgeeRiver" watertype="river"/>
+    </capital>
+  </country>
+  <country>
+    <name>Peru</name>
+    <area>1285220</area>
+    <population>24523408</population>
+    <capital country="PE" id="cty-Peru-Lima">
+      <name>Lima</name>
+      <longitude>-77.05</longitude>
+      <latitude>-12.0833</latitude>
+      <population year="93">6321173</population>
+    </capital>
+  </country>
+  <country>
+    <name>Ethiopia</name>
+    <area>1127127</area>
+    <population>57171662</population>
+    <capital country="ETH" id="cty-Ethiopia-Addis-Ababa">
+      <name>Addis Ababa</name>
+      <longitude>38.75</longitude>
+      <latitude>9</latitude>
+      <population year="94">2316400</population>
+    </capital>
+  </country>
+</mondial>

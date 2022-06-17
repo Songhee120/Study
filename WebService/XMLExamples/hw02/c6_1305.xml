@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<booklist  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		       xsi:noNamespaceSchemaLocation="c6_1305.xsd">
+
+	<book>
+		<title>XML And Java</title>
+		<author>신민철</author>
+	</book>
+	
+	<book id="b1" kind="수필" xsi:type="ctBook2">
+		<title>사랑과 전쟁</title>
+		<author>이사랑</author>
+		<publisher>사랑문화사</publisher>
+		<price>2500000</price>
+	</book>
+	
+	<book id="b2" kind="자연과학" xsi:type="ctBook3">
+		<title>우주의역사</title>
+		<author>김우주</author>
+		<publisher>과학출판사</publisher>
+		<price>25000</price>
+	</book>
+	
+
+</booklist>

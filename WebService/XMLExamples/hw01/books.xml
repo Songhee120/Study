@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookCatalog xmlns="http://www.example.org/bookML"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/bookML hw02/bookML.xsd ">
+	<bookList>
+		<book isbn="123456789-1">
+			<title>사랑과 전쟁</title>
+			<author>이사랑</author>
+			<publisher></publisher>
+			<publicationDate>2021-04-16</publicationDate>
+			<price unit="won">
+				<listPrice>18000</listPrice>
+				<discountPrice>18000</discountPrice>
+			</price>
+			<discountRate>20</discountRate>
+			<pages></pages>
+			<field></field>
+			<category cid="101-1-1"></category>
+		</book>
+	</bookList>
+	<bookCategory>
+		<category cid="c101-1-1" name="한국소설"/>
+  	</bookCategory>
+</bookCatalog>

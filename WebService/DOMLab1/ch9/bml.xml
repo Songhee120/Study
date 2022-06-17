@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<!DOCTYPE booklist SYSTEM "bml.dtd">
+
+<booklist>
+	<book kind="컴퓨터">
+		<title>XML 웹 서비스</title>
+		<author>신민철</author>
+		<publisher>프리렉</publisher>
+		<price>20000</price>
+	</book>
+	<book kind="소설">
+		<title>금붕어메세지</title>
+		<author>이능문</author>
+		<publisher>무한(구)생각과기억</publisher>
+		<price>9000</price>
+	</book>
+	<book kind="컴퓨터">
+		<title>Java And XML</title>
+		<author>홍길동</author>
+		<publisher>영진 출판사</publisher>
+		<price>25000</price>
+	</book>
+</booklist>

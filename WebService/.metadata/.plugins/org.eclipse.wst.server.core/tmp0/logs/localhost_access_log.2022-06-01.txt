@@ -1,0 +1,16 @@
+127.0.0.1 - - [01/Jun/2022:23:39:19 +0900] "GET / HTTP/1.1" 404 807
+127.0.0.1 - - [01/Jun/2022:23:40:00 +0900] "GET / HTTP/1.1" 404 807
+127.0.0.1 - - [01/Jun/2022:23:40:22 +0900] "GET / HTTP/1.1" 404 807
+127.0.0.1 - - [01/Jun/2022:23:41:41 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:23:41:41 +0900] "GET /AjaxLab/pizza/pizza.html HTTP/1.1" 200 1039
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:23:41:42 +0900] "GET /AjaxLab/pizza/breakneck_new.css HTTP/1.1" 200 348
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:23:41:42 +0900] "GET /AjaxLab/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:23:41:42 +0900] "GET /AjaxLab/pizza/pizza.js HTTP/1.1" 200 1811
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:23:41:42 +0900] "GET /AjaxLab/pizza/breakneck-logo_new.gif HTTP/1.1" 200 20342
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:23:41:42 +0900] "GET /favicon.ico HTTP/1.1" 404 777
+127.0.0.1 - - [01/Jun/2022:23:43:39 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:23:43:45 +0900] "GET /AjaxLab/pizza/pizza.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:23:43:45 +0900] "GET /AjaxLab/pizza/breakneck_new.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:23:43:46 +0900] "GET /AjaxLab/js/jquery-3.4.1.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:23:43:46 +0900] "GET /AjaxLab/pizza/pizza.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:23:43:46 +0900] "GET /AjaxLab/pizza/breakneck-logo_new.gif HTTP/1.1" 304 -

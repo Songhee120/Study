@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookCatalog [
+  <!ENTITY favorateAuthor SYSTEM "유발 하라리">
+]>
+<bookCatalog 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.dongduk.ac.kr/bookML/2.0"
+	xsi:schemaLocation="http://www.dongduk.ac.kr/bookML/2.0 bookML.xsd ">
+	<bookList>
+		<book isbn="895467277-9" xsi:type="bookType"> 
+			<title>일곱해의 마지막</title> 
+            <author>&favorateAuthor;</author>
+            <publisher>문학동네</publisher>            
+			<publishDate year="2020" month="07" day="01" />
+			<revisionDate year="2021" month="02" day="15" />
+			<price currency="won">
+				<listPrice>13500</listPrice>
+				<discountPrice>12150</discountPrice>
+			</price>
+			<discountRate>10</discountRate>
+			<pages>248</pages>
+			<coverImage src="http://image.yes24.com/goods/90619474/L" type="jpeg"/>
+			<category>c101-1-1</category>  		<!-- 문학/소설/한국소설 분야에 속함 -->
+			<description>
+				개인이 밟아나간 작품 활동의 궤적을 곧 한국소설의 중요한 흐름 가운데 하나로 만들어내며 한국문학의 판도를 뒤바꾼 
+				작가 김연수의 신작 장편소설. 삼십 년 가까이 작가생활을 하는 동안 김연수는 에너지와 불안으로 가득한 청춘의 눈빛을
+				가장 가까이에서 기록하는 한편으로 사랑의 본질에 대해 끊임없이 탐구하며 그만의 지적인 사랑학 개론을 펼쳐왔다. 
+				그리고 그와 동시에 방대한 역사적 자료를 바탕으로 객관적인 사실로는 가닿을 수 없는 빈틈에서 개인의 진실을 발견해내는 작업을 해오기도 했다.
+			</description>
+			<review>
+				김연수 작가님의 오랜만의 신작이라 구매했어요. 일제강점기 이후 해방과 전쟁, 분단 등 혼란한 시기 북으로 간 
+				시인 백석의 이야기입니다. 전쟁이 끝난 7년 동안의 백석의 이야기. 작가님도 8년만의 신작인데 그 시간동안 백석의 
+				시간을 곱씹어 보셨을까요. 책의 대한 정보 하나도 없이 작가님 이름만 보고 구입했는데 제목이 직관적이었네요. 
+				마음이 많이 무거워지고 여운도 많이 남는 글이었습니다.
+			</review>
+		</book>
+		<book isbn="978-893497246-4" xsi:type="eBookType">
+			<title>사피엔스</title>
+			<originalTitle>Sapiens: A Brief History of Humankind &amp; Earth</originalTitle>  <!-- 원작 제목 -->
+			<author>유발 하라리</author>
+			<translator>조현욱</translator>     <!-- 역자 -->
+			<publisher>김영사</publisher>
+			<publishDate year="2014" month="05" day="19" />
+			<revisionDate year="2017" month="09" day="15" />
+			<price currency="won">
+				<listPrice>12000</listPrice>
+				<discountPrice>10800</discountPrice>
+			</price>
+			<discountRate>10</discountRate>
+			<pages>241</pages>
+			<category>c102-1</category>  		<!-- 인문/일반교양 분야에 속함 -->
+			<category>c103-2</category>  		<!-- 역사/세계사 분야에 속함 -->
+			<description>
+				변방의 유인원 호모 사피엔스는 어떻게 세상의 지배자가 되었는가? 수렵채집을 하던 우리 조상들은 어떻게 한 곳에 모여 도시와 왕국을 건설하였는가? 인간은 왜 지구 역사상 가장 치명적인 동물이 되었는가? 과학은 모든 종교의 미래인가? 인간의 유효기간은 언제까지인가? 멀고먼 인류의 시원부터 인지혁명, 농업혁명, 과학혁명을 거쳐 끊임없이 진화해온 인간의 역사를 생물학, 경제학, 종교학, 심리학, 철학 등 여러 학문의 경계를 넘나들며 다양하고 생생하게 조명한 전인미답의 문제작. 호모 사피엔스부터 인공지능까지, 기나긴 역사의 시간을 한 권으로 써내려간 문명 항해기. 이제 우리는 무엇을 인간이라고 할 것인가.
+			</description>
+			<format value="EPUB" />         <!-- eBook 파일형식 -->
+			<size unit="MB">26.60</size>    <!-- eBook 파일크기 -->
+			<period>30</period>             <!-- eBook 이용기간 -->
+		</book>
+		<book isbn="978-893102200-1" xsi:type="newEBookType">
+			<title>인간 불평등 기원론</title> 
+     		<author>장 자크 루소</author>
+			<publisher>인플루엔셜</publisher>
+			<publishDate year="2021" month="01" day="25" /> 
+      		<!-- <revisionDate year="2021" month="03" day="25" /> -->   <!-- 사용 불가! -->
+			<price currency="won">
+				<listPrice>11500</listPrice>
+				<discountPrice>10350</discountPrice>
+			</price>
+			<discountRate>10</discountRate>	<!-- 할인율은 10(%) 이내 -->
+			<pages>316</pages>
+			<category>c102-1</category>  	<!-- 인문/일반교양 분야에 속함 -->
+			<format value="PDF" />
+			<size unit="MB">30.55</size>
+			<period>6</period>              <!-- 이용기간이 14일 이내 -->
+		</book>
+	</bookList>
+	<bookCategory>
+		<category cid="c101" name="문학">
+			<category cid="c101-1" name="소설">
+				<category cid="c101-1-1" name="한국소설" />
+				<category cid="c101-1-2" name="영미소설" />
+			</category>
+			<category cid="c101-2" name="시" />
+			<category cid="c101-3" name="희곡" />
+		</category>
+		<category cid="c102" name="인문">
+			<category cid="c102-1" name="일반교양" />
+		</category>
+		<category cid="c103" name="역사">
+			<category cid="c103-1" name="한국사" />
+			<category cid="c103-2" name="세계사" />
+		</category>
+	</bookCategory>
+</bookCatalog>

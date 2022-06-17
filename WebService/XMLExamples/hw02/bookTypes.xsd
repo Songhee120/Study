@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/bookML"
+	xmlns:tns="http://www.example.org/bookTypes"
+	elementFormDefault="qualified" xmlns:Q1="http://www.example.org/bookML">
+
+	<simpleType name="isbnType">
+		<restriction base="string">
+			<pattern value="\d{9}-\d" />
+			<pattern value="978-\d{9}-\d" />
+			<pattern value="979-\d{9}-\d" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="currencyType">
+		<restriction base="string">
+			<enumeration value="won" />
+			<enumeration value="dollar" />
+			<enumeration value="yen" />
+		</restriction>
+	</simpleType>
+
+
+	<simpleType name="pagesType">
+		<restriction base="integer">
+			<minInclusive value="1" />
+			<maxInclusive value="1000" />
+		</restriction>
+	</simpleType>
+
+	<complexType name="fileSizeType">
+		<simpleContent>
+			<extension base="decimal">
+				<attribute name="unit" type="string" />
+			</extension>
+		</simpleContent>
+	</complexType>
+
+	<complexType name="translationType">
+		<sequence>
+			<element name="originalTitle" type="string"></element>
+			<element name="translator" type="string"></element>
+		</sequence>
+	</complexType>
+
+
+
+	<simpleType name="discountRateType">
+		<restriction base="nonNegativeInteger">
+			<minInclusive value="0"></minInclusive>
+			<maxInclusive value="80"></maxInclusive>
+		</restriction>
+	</simpleType>
+
+
+	<simpleType name="bookDateType">
+		<restriction base="date">
+			<minInclusive value="1900-01-01"></minInclusive>
+			<maxInclusive value="2021-12-31"></maxInclusive>
+		</restriction>
+	</simpleType>
+
+
+	<complexType name="bookPriceType">
+		<sequence>
+			<element name="listPrice" type="nonNegativeInteger"></element>
+			<element name="discountPrice" type="nonNegativeInteger"></element>
+		</sequence>
+		<attribute name="unit" default="won">
+			<simpleType>
+				<restriction base="string">
+					<enumeration value="won"></enumeration>
+					<enumeration value="dollar"></enumeration>
+					<enumeration value="yen"></enumeration>
+				</restriction>
+			</simpleType>
+		</attribute>
+	</complexType>
+
+	<complexType name="categoryType">
+		<sequence>
+			<element name="category" type="Q1:categoryType" minOccurs="0" maxOccurs="1"></element>
+		</sequence>
+		<attribute name="cid" type="string" use="required"></attribute>
+		<attribute name="name" type="string"></attribute>
+	</complexType>
+
+
+	<complexType name="bookCategoryType">
+		<sequence>
+			<element name="category" type="Q1:categoryType"></element>
+		</sequence>
+	</complexType>
+</schema>

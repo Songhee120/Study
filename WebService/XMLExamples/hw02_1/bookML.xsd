@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.dongduk.ac.kr/bookML/2.0"
+	xmlns:bml="http://www.dongduk.ac.kr/bookML/2.0" elementFormDefault="qualified">
+	<include schemaLocation="bookTypes.xsd"/>
+	
+	<complexType name="bookType">
+		<annotation>
+			<documentation>책에 대한 기본 데이터 타입 정의</documentation>
+		</annotation>
+		<sequence>
+			<element name="title" type="string"/>
+			<element name="originalTitle" type="string" minOccurs="0"/>			
+			<element name="author" type="string" minOccurs="1"	maxOccurs="unbounded"/>
+			<element name="translator" type="string" minOccurs="0"/>			
+			<element name="publisher" type="string"/>
+			<element ref="bml:publishDate"/>			<!-- 전역 엘리먼트를 참조 -->
+			<element ref="bml:revisionDate" minOccurs="0" maxOccurs="unbounded"/>  <!-- 전역 엘리먼트를 참조 -->
+			<element name="price" type="bml:priceType"/>
+			<element name="discountRate" type="bml:discountRateType"
+						minOccurs="0" maxOccurs="unbounded"/>
+			<element name="pages" type="bml:pagesType"/>
+			<element name="coverImage" type="bml:bookCoverType" minOccurs="0"/>
+			<element name="category" type="string" minOccurs="0"
+						maxOccurs="unbounded"/>
+			<element name="description" type="string" minOccurs="0"/>
+			<element name="review" type="string" minOccurs="0" maxOccurs="unbounded"/>			
+		</sequence>
+		<attribute name="isbn" type="bml:ISBNType" use="required"/>
+	</complexType>
+
+	<complexType name="eBookType">
+		<complexContent>
+			<extension base="bml:bookType">
+				<sequence>
+					<element name="format" type="bml:fileFormatType"/>
+					<element name="size" type="bml:fileSizeType"/>
+					<element name="period" type="positiveInteger"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<complexType name="newEBookType">
+		<complexContent>
+			<restriction base="bml:eBookType">
+				<!-- bookType과 eBookType의 모든 자식 엘리먼트를 재선언: 순서도 동일해야 함 -->
+				<sequence>
+					<element name="title" type="string"/>
+					<element name="originalTitle" type="string" minOccurs="0"/>			
+					<element name="author" type="string" 
+									minOccurs="1"	maxOccurs="unbounded"/>
+					<element name="translator" type="string" minOccurs="0"/>			
+					<element name="publisher" type="string"/>
+					<element ref="bml:publishDate"/>
+					<element ref="bml:revisionDate" minOccurs="0"
+									maxOccurs="0"/>		<!-- 최대 출현 가능 횟수를 0으로 제한 -->
+					<element name="price" type="bml:priceType"/>
+					<element name="discountRate" minOccurs="0" maxOccurs="unbounded">
+						<simpleType>
+							<restriction base="bml:discountRateType"> 	<!-- base 타입에 주의 -->								
+								<maxInclusive value="10"/>	<!-- 할인율(%)의 최대값을 10으로 제한 -->
+							</restriction>
+						</simpleType>
+					</element>					
+					<element name="pages" type="bml:pagesType"/>
+					<element name="coverImage" type="bml:bookCoverType" minOccurs="0"/>
+					<element name="category" type="string" minOccurs="0"
+								maxOccurs="unbounded"/>
+					<element name="description" type="string" minOccurs="0"/>
+					<element name="review" type="string" minOccurs="0" maxOccurs="unbounded"/>
+					<element name="format" type="bml:fileFormatType"/>
+					<element name="size" type="bml:fileSizeType"/>
+					<element name="period"> 
+						<simpleType>
+							<restriction base="positiveInteger"> <!-- base 타입에 주의 -->			
+								<maxInclusive value="14"/>		<!-- 이용기간의 최대값을 14로 제한 -->
+							</restriction>
+						</simpleType>
+					</element>
+				</sequence>
+			</restriction>
+		</complexContent>
+	</complexType>
+
+	<element name="publishDate"> 	<!-- 출판일  -->
+		<complexType>
+			<attributeGroup ref="bml:dateAttrGroup"/>	<!-- 속성 그룹을 참조 -->
+		</complexType>
+	</element>
+	<element name="revisionDate">	<!-- 개정일  -->
+		<complexType>
+			<attributeGroup ref="bml:dateAttrGroup"/>	<!-- 속성 그룹을 참조 -->
+		</complexType>
+	</element>
+
+	<!-- 아래와 같이 하나의 global type을 정의해서 사용해도 됨 -->
+	<!-- 
+		<complexType name="dateType">
+			<attributeGroup ref="bml:dateAttrGroup"/>
+		</complexType> 
+		<element name="publishDate" type="bml:dateType/> 
+		<element name="revisionDate" type="bml:dateType/> 
+	-->
+
+	<complexType name="categoryType">
+		<sequence>
+			<element name="category" type="bml:categoryType"
+					minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+		<attribute name="cid" type="string"/>
+		<attribute name="name" type="string"/>
+	</complexType>
+
+	<element name="bookCatalog">
+		<annotation>
+			<documentation>루트 엘리먼트 선언</documentation>
+		</annotation>
+		<complexType>
+			<sequence>
+				<element ref="bml:bookList"/>  	<!-- global element 참조  -->
+				<element ref="bml:bookCategory"/>   <!-- global element 참조  -->
+			</sequence>
+		</complexType>
+		<key name="bookKey">
+			<annotation>
+				<documentation>./bookList/book에 대한 key 제약 선언 (key는 isbn 속성)</documentation>
+			</annotation>
+			<selector xpath="./bml:bookList/bml:book"/>	
+			<field xpath="@isbn"/>
+		</key>
+		<keyref name="caRef" refer="bml:caKey">
+			<annotation>
+				<documentation>
+					./bookList/book/category에 대한 keyref 제약 선언
+					(bookCategory 엘리먼트에 선언된 bml:caKey 참조)
+					./bookList/book/category/. 의 값이 bookCategory//category/@cid 값을 참조
+				</documentation>
+			</annotation>
+			<selector xpath="./bml:bookList/bml:book/bml:category"/>
+			<field xpath="."/>
+		</keyref>
+	</element>
+
+	<element name="bookList">
+		<complexType>
+			<sequence>
+				<element name="book" type="bml:bookType"
+					minOccurs="0" maxOccurs="unbounded">
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="bookCategory">
+		<complexType>
+			<sequence>
+				<element name="category" type="bml:categoryType"
+					minOccurs="0" maxOccurs="unbounded">
+				</element>
+			</sequence>
+		</complexType>
+		<key name="caKey">
+			<annotation>
+				<documentation>.//category에 대한 key 제약 선언 (key는 cid 속성)</documentation>
+			</annotation>
+			<selector xpath=".//bml:category"></selector>
+			<field xpath="@cid"></field>
+		</key>
+	</element>
+</schema>

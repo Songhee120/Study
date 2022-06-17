@@ -1,0 +1,50 @@
+<!ENTITY % dateAttrs "year CDATA #REQUIRED 
+					month CDATA #REQUIRED 
+					day CDATA #REQUIRED">
+<!NOTATION gif PUBLIC "image/gif" "photoshop.exe">					
+<!NOTATION jpeg PUBLIC "image/jpeg" "photoshop.exe">					
+<!NOTATION bmp PUBLIC "image/bmp" "photoshop.exe">					
+
+<!ELEMENT bookCatalog (bookList, bookCategory)>
+<!ELEMENT bookList (book*, eBook*)>
+<!ELEMENT book (title, author+, publisher, publishDate, 
+price, discountRate, pages, revisionDate*, image*, introduce*, reviews*)>
+<!ATTLIST book id ID #REQUIRED>
+<!ATTLIST book cid IDREFS #IMPLIED>
+<!ELEMENT eBook (format, size, expire, title, author+, publisher, publishDate, 
+price, discountRate, pages, revisionDate*, image*, introduce*, reviews*)>
+<!ATTLIST eBook id ID #REQUIRED>
+<!ATTLIST eBook cid IDREFS #IMPLIED>
+<!ELEMENT newEBook (format, size, expire, title, author+, publisher, publishDate, 
+price, discountRate, pages, image*, introduce*, reviews*)>
+<!ATTLIST newEBook id ID #REQUIRED>
+<!ATTLIST newEBook cid IDREFS #IMPLIED>
+
+<!ELEMENT format EMPTY>
+<!ATTLIST format value (EPUB|PDF|StreamText|Stream) "EPUB">
+<!ELEMENT size (#PCDATA)>
+<!ATTLIST size unit CDATA #IMPLIED>
+<!ELEMENT expire (#PCDATA)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT publishDate EMPTY>
+<!ATTLIST publishDate %dateAttrs;>
+<!ELEMENT price (listPrice, discountPrice)>
+<!ELEMENT listPrice (#PCDATA)>
+<!ELEMENT discountPrice (#PCDATA)>
+<!ATTLIST price currency (won|dollor|yen) "won">
+<!ELEMENT discountRate (#PCDATA)>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT revisionDate (#PCDATA)>
+<!ATTLIST revisionDate %dateAttrs;>
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST image src CDATA #REQUIRED type NOTATION (gif|jpeg|bmp) "gif">
+<!ELEMENT introduce (#PCDATA)>
+<!ELEMENT reviews (#PCDATA)>
+
+<!ELEMENT bookCategory (category*)>
+<!ELEMENT category EMPTY>
+<!ATTLIST category cid ID #REQUIRED>
+<!ATTLIST category name CDATA #IMPLIED>

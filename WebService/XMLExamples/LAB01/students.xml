@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studentList>
+	<student id="20191236" grade="3">
+		<name>이송희</name>
+		<dept name="컴퓨터학과"/>
+		<phone>
+			<home>0212345678</home>
+			<mobile>01012345678</mobile>
+		</phone>
+		<introduce>방가방가&gt;&amp;&lt;</introduce>
+		<![CDATA[int num;]]>
+	</student>
+</studentList>

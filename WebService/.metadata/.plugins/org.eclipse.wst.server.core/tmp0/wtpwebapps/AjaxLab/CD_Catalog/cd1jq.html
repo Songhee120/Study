@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+}
+</style>
+<script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {	
+	$('#button1').bind('click', function() {
+		loadDoc();
+	});	
+});
+function loadDoc() {
+   	$.ajax({
+   		type: 'GET',
+		url: "cd_catalog.xml",
+		cache: false,
+		dataType: "xml",
+		success:  function(xml) { 		// callback function
+		  alert("responseXML: \n" + xml);
+			var table="<tr><th>Artist</th><th>Title</th></tr>";
+ 			$(xml).find("CD").each(function() {
+    			table += "<tr><td>" + $(this).find("ARTIST").text()
+  	        	   	  + "</td><td>" + $(this).find("TITLE").text() + "</td></tr>";	  
+ 			}); 
+ 			$('#demo').empty().append(table);
+ 			$('#msg').empty().append("<br>generated from XML data by Ajax and jQuery");
+ 		}
+	});
+}
+</script>
+</head>
+<body>
+	<h1>The XMLHttpRequest Object</h1>
+	<button id="button1" type="button">Get my CD collection</button>
+	<br><br>
+	<table id="demo"></table>
+	<div id="msg"></div>
+</body>
+</html>

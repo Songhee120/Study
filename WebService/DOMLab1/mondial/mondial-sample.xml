@@ -1,0 +1,2174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mondial SYSTEM "mondial.dtd">
+<mondial>
+   <country car_code="AL" area="28750" capital="cty-cid-cia-Albania-Tirane"
+            memberships="org-BSEC org-CE org-CCC org-ECE org-EBRD org-FAO org-IAEA org-IBRD org-ICAO org-Interpol org-IDA org-IFRCS org-IFC org-IFAD org-ILO org-IMO org-IMF org-IOC org-IOM org-ISO org-ICRM org-ITU org-Intelsat org-IDB org-ANC org-OSCE org-OIC org-PFP org-UN org-UNESCO org-UNIDO org-UNOMIG org-UPU org-WFTU org-WHO org-WIPO org-WMO org-WToO org-WTrO">
+      <name>Albania</name>
+      <population>3249136</population>
+      <population_growth>1.34</population_growth>
+      <infant_mortality>49.2</infant_mortality>
+      <gdp_total>4100</gdp_total>
+      <gdp_agri>55</gdp_agri>
+      <inflation>16</inflation>
+      <indep_date>1912-11-28</indep_date>
+      <government>emerging democracy</government>
+      <encompassed continent="europe" percentage="100"/>
+      <ethnicgroups percentage="3">Greeks</ethnicgroups>
+      <ethnicgroups percentage="95">Albanian</ethnicgroups>
+      <religions percentage="70">Muslim</religions>
+      <religions percentage="10">Roman Catholic</religions>
+      <religions percentage="20">Christian Orthodox</religions>
+      <border country="GR" length="282"/>
+      <border country="MK" length="151"/>
+      <border country="MNE" length="172"/>
+      <border country="KOS" length="112"/>
+      <city id="cty-cid-cia-Albania-Tirane" is_country_cap="yes" country="AL">
+         <name>Tirane</name>
+         <longitude>19.8</longitude>
+         <latitude>41.3</latitude>
+         <population year="87">192000</population>
+      </city>
+      <city id="stadt-Shkoder-AL-AL" country="AL">
+         <name>Shkoder</name>
+         <longitude>19.2</longitude>
+         <latitude>42.2</latitude>
+         <population year="87">62000</population>
+         <located_at watertype="lake" lake="lake-Skutarisee"/>
+      </city>
+      <city id="stadt-Durres-AL-AL" country="AL">
+         <name>Durres</name>
+         <longitude>19.3</longitude>
+         <latitude>41.3</latitude>
+         <population year="87">60000</population>
+         <located_at watertype="sea" sea="sea-Mittelmeer"/>
+      </city>
+      <city id="stadt-Vlore-AL-AL" country="AL">
+         <name>Vlore</name>
+         <longitude>19.3</longitude>
+         <latitude>40.3</latitude>
+         <population year="87">56000</population>
+         <located_at watertype="sea" sea="sea-Mittelmeer"/>
+      </city>
+      <city id="stadt-Elbasan-AL-AL" country="AL">
+         <name>Elbasan</name>
+         <longitude>20.1</longitude>
+         <latitude>41.1</latitude>
+         <population year="87">53000</population>
+      </city>
+      <city id="stadt-Korce-AL-AL" country="AL">
+         <name>Korce</name>
+         <longitude>20.5</longitude>
+         <latitude>40.4</latitude>
+         <population year="87">52000</population>
+      </city>
+   </country>
+   <country car_code="TR" area="780580" capital="cty-Turkey-Ankara"
+            memberships="org-AsDB org-BIS org-BSEC org-CE org-CCC org-ECE org-ECO org-EBRD org-EU org-CERN org-FAO org-IAEA org-IBRD org-ICC org-ICAO org-ICFTU org-Interpol org-IDA org-IEA org-IFRCS org-IFC org-IFAD org-ILO org-IMO org-Inmarsat org-IMF org-IOC org-IOM org-ISO org-ICRM org-ITU org-Intelsat org-IDB org-ANC org-NATO org-EN org-OECD org-OSCE org-OIC org-PCA org-UN org-UNCRO org-UNESCO org-UNIDO org-UNIKOM org-UNOMIG org-UNHCR org-UNRWA org-UPU org-WEU org-WFTU org-WHO org-WIPO org-WMO org-WToO org-WTrO">
+      <name>Turkey</name>
+      <population>62484478</population>
+      <population_growth>1.67</population_growth>
+      <infant_mortality>43.2</infant_mortality>
+      <gdp_total>345700</gdp_total>
+      <gdp_agri>15.5</gdp_agri>
+      <gdp_ind>33.2</gdp_ind>
+      <gdp_serv>51.3</gdp_serv>
+      <inflation>94</inflation>
+      <indep_date>1923-10-29</indep_date>
+      <government>republican parliamentary democracy</government>
+      <encompassed continent="europe" percentage="5"/>
+      <encompassed continent="asia" percentage="95"/>
+      <ethnicgroups percentage="80">Turkish</ethnicgroups>
+      <ethnicgroups percentage="20">Kurdish</ethnicgroups>
+      <religions percentage="99.8">Muslim</religions>
+      <border country="GR" length="206"/>
+      <border country="BG" length="240"/>
+      <border country="IR" length="499"/>
+      <border country="ARM" length="268"/>
+      <border country="GE" length="252"/>
+      <border country="AZ" length="9"/>
+      <border country="IRQ" length="331"/>
+      <border country="SYR" length="822"/>
+      <province id="prov-cid-cia-Turkey-2" capital="cty-Turkey-Adana" country="TR">
+         <name>Adana</name>
+         <area>17253</area>
+         <population>1934907</population>
+         <city id="cty-Turkey-Adana" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-2">
+            <name>Adana</name>
+            <longitude>35.3</longitude>
+            <latitude>36.9833</latitude>
+            <population year="94">1047300</population>
+         </city>
+         <city id="cty-cid-cia-Turkey-36" country="TR" province="prov-cid-cia-Turkey-2">
+            <name>Osmaniye</name>
+            <population year="94">138000</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-3" capital="cty-cid-cia-Turkey-40" country="TR">
+         <name>Adiyaman</name>
+         <area>7614</area>
+         <population>513131</population>
+         <city id="cty-cid-cia-Turkey-40" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-3">
+            <name>Adiyaman</name>
+            <population year="94">128000</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-4" capital="cty-cid-cia-Turkey-Afyon" country="TR">
+         <name>Afyon</name>
+         <area>14230</area>
+         <population>739223</population>
+         <city id="cty-cid-cia-Turkey-Afyon" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-4">
+            <name>Afyon</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-5" capital="cty-cid-cia-Turkey-Agri" country="TR">
+         <name>Agri</name>
+         <area>11376</area>
+         <population>437093</population>
+         <city id="cty-cid-cia-Turkey-Agri" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-5">
+            <name>Agri</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-6" capital="cty-cid-cia-Turkey-Aksaray" country="TR">
+         <name>Aksaray</name>
+         <area>7626</area>
+         <population>326399</population>
+         <city id="cty-cid-cia-Turkey-Aksaray" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-6">
+            <name>Aksaray</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-7" capital="cty-cid-cia-Turkey-Amasya" country="TR">
+         <name>Amasya</name>
+         <area>5520</area>
+         <population>357191</population>
+         <city id="cty-cid-cia-Turkey-Amasya" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-7">
+            <name>Amasya</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-8" capital="cty-Turkey-Ankara" country="TR">
+         <name>Ankara</name>
+         <area>25706</area>
+         <population>3236626</population>
+         <city id="cty-Turkey-Ankara" is_country_cap="yes" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-8">
+            <name>Ankara</name>
+            <longitude>32.8833</longitude>
+            <latitude>39.95</latitude>
+            <population year="94">2782200</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-9" capital="cty-cid-cia-Turkey-10" country="TR">
+         <name>Antalya</name>
+         <area>20591</area>
+         <population>1132211</population>
+         <city id="cty-cid-cia-Turkey-10" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-9">
+            <name>Antalya</name>
+            <population year="94">497200</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-10" capital="cty-cid-cia-Turkey-Artvin" country="TR">
+         <name>Artvin</name>
+         <area>7436</area>
+         <population>212833</population>
+         <city id="cty-cid-cia-Turkey-Artvin" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-10">
+            <name>Artvin</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-11" capital="cty-cid-cia-Turkey-42" country="TR">
+         <name>Aydin</name>
+         <area>8007</area>
+         <population>824816</population>
+         <city id="cty-cid-cia-Turkey-42" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-11">
+            <name>Aydin</name>
+            <population year="94">121200</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-12" capital="cty-cid-cia-Turkey-28" country="TR">
+         <name>Balikesir</name>
+         <area>14292</area>
+         <population>973314</population>
+         <city id="cty-cid-cia-Turkey-28" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-12">
+            <name>Balikesir</name>
+            <population year="94">187600</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-13" capital="cty-cid-cia-Turkey-31" country="TR">
+         <name>Batman</name>
+         <area>4694</area>
+         <population>344669</population>
+         <city id="cty-cid-cia-Turkey-31" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-13">
+            <name>Batman</name>
+            <population year="94">182800</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-14" capital="cty-cid-cia-Turkey-Bayburt" country="TR">
+         <name>Bayburt</name>
+         <area>3652</area>
+         <population>107330</population>
+         <city id="cty-cid-cia-Turkey-Bayburt" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-14">
+            <name>Bayburt</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-15" capital="cty-cid-cia-Turkey-Bilecik" country="TR">
+         <name>Bilecik</name>
+         <area>4307</area>
+         <population>175526</population>
+         <city id="cty-cid-cia-Turkey-Bilecik" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-15">
+            <name>Bilecik</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-16" capital="cty-cid-cia-Turkey-Bingol" country="TR">
+         <name>Bingol</name>
+         <area>8125</area>
+         <population>250966</population>
+         <city id="cty-cid-cia-Turkey-Bingol" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-16">
+            <name>Bingol</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-17" capital="cty-cid-cia-Turkey-Bitlis" country="TR">
+         <name>Bitlis</name>
+         <area>6707</area>
+         <population>330115</population>
+         <city id="cty-cid-cia-Turkey-Bitlis" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-17">
+            <name>Bitlis</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-18" capital="cty-cid-cia-Turkey-Bolu" country="TR">
+         <name>Bolu</name>
+         <area>11051</area>
+         <population>536869</population>
+         <city id="cty-cid-cia-Turkey-Bolu" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-18">
+            <name>Bolu</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-19" capital="cty-cid-cia-Turkey-Burdur" country="TR">
+         <name>Burdur</name>
+         <area>6887</area>
+         <population>254899</population>
+         <city id="cty-cid-cia-Turkey-Burdur" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-19">
+            <name>Burdur</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-20" capital="cty-cid-cia-Turkey-6" country="TR">
+         <name>Bursa</name>
+         <area>11043</area>
+         <population>1603137</population>
+         <city id="cty-cid-cia-Turkey-6" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-20">
+            <name>Bursa</name>
+            <population year="94">996600</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-50" capital="cty-cid-cia-Turkey-35" country="TR">
+         <name>Kutahya</name>
+         <area>11875</area>
+         <population>578020</population>
+         <city id="cty-cid-cia-Turkey-35" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-50">
+            <name>Kutahya</name>
+            <population year="94">140700</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-51" capital="cty-cid-cia-Turkey-17" country="TR">
+         <name>Malatya</name>
+         <area>12313</area>
+         <population>702055</population>
+         <city id="cty-cid-cia-Turkey-17" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-51">
+            <name>Malatya</name>
+            <population year="94">319700</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-52" capital="cty-cid-cia-Turkey-29" country="TR">
+         <name>Manisa</name>
+         <area>13810</area>
+         <population>1154418</population>
+         <city id="cty-cid-cia-Turkey-29" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-52">
+            <name>Manisa</name>
+            <population year="94">187500</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-53" capital="cty-cid-cia-Turkey-Mardin" country="TR">
+         <name>Mardin</name>
+         <area>8891</area>
+         <population>557727</population>
+         <city id="cty-cid-cia-Turkey-Mardin" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-53">
+            <name>Mardin</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-54" capital="cty-cid-cia-Turkey-Mugla" country="TR">
+         <name>Mugla</name>
+         <area>13338</area>
+         <population>562809</population>
+         <city id="cty-cid-cia-Turkey-Mugla" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-54">
+            <name>Mugla</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-55" capital="cty-cid-cia-Turkey-Mus" country="TR">
+         <name>Mus</name>
+         <area>8196</area>
+         <population>376543</population>
+         <city id="cty-cid-cia-Turkey-Mus" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-55">
+            <name>Mus</name>
+            <located_at watertype="river" river="river-Murat"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-56" capital="cty-cid-cia-Turkey-Nevsehir" country="TR">
+         <name>Nevsehir</name>
+         <area>5467</area>
+         <population>289509</population>
+         <city id="cty-cid-cia-Turkey-Nevsehir" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-56">
+            <name>Nevsehir</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-57" capital="cty-cid-cia-Turkey-Nigde" country="TR">
+         <name>Nigde</name>
+         <area>7312</area>
+         <population>305861</population>
+         <city id="cty-cid-cia-Turkey-Nigde" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-57">
+            <name>Nigde</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-58" capital="cty-cid-cia-Turkey-41" country="TR">
+         <name>Ordu</name>
+         <area>6001</area>
+         <population>830105</population>
+         <city id="cty-cid-cia-Turkey-41" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-58">
+            <name>Ordu</name>
+            <population year="94">121300</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-59" capital="cty-cid-cia-Turkey-Rize" country="TR">
+         <name>Rize</name>
+         <area>3920</area>
+         <population>348776</population>
+         <city id="cty-cid-cia-Turkey-Rize" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-59">
+            <name>Rize</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-60" capital="cty-cid-cia-Turkey-Sakarya" country="TR">
+         <name>Sakarya</name>
+         <area>4817</area>
+         <population>683061</population>
+         <city id="cty-cid-cia-Turkey-Sakarya" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-60">
+            <name>Sakarya</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-61" capital="cty-cid-cia-Turkey-16" country="TR">
+         <name>Samsun</name>
+         <area>9579</area>
+         <population>1158400</population>
+         <city id="cty-cid-cia-Turkey-16" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-61">
+            <name>Samsun</name>
+            <population year="94">326900</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-62" capital="cty-cid-cia-Turkey-15" country="TR">
+         <name>Sanliurfa</name>
+         <area>18584</area>
+         <population>1001455</population>
+         <city id="cty-cid-cia-Turkey-15" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-62">
+            <name>Urfa</name>
+            <population year="94">357900</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-63" capital="cty-cid-cia-Turkey-Siirt" country="TR">
+         <name>Siirt</name>
+         <area>5406</area>
+         <population>243435</population>
+         <city id="cty-cid-cia-Turkey-Siirt" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-63">
+            <name>Siirt</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-64" capital="cty-cid-cia-Turkey-Sinop" country="TR">
+         <name>Sinop</name>
+         <area>5862</area>
+         <population>265153</population>
+         <city id="cty-cid-cia-Turkey-Sinop" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-64">
+            <name>Sinop</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-65" capital="cty-cid-cia-Turkey-Sirnak" country="TR">
+         <name>Sirnak</name>
+         <area>7172</area>
+         <population>262006</population>
+         <city id="cty-cid-cia-Turkey-Sirnak" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-65">
+            <name>Sirnak</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Turkey-74" capital="cty-cid-cia-Turkey-44" country="TR">
+         <name>Zonguldak</name>
+         <area>8629</area>
+         <population>1073560</population>
+         <city id="cty-cid-cia-Turkey-44" is_state_cap="yes" country="TR"
+               province="prov-cid-cia-Turkey-74">
+            <name>Zonguldak</name>
+            <population year="94">115900</population>
+         </city>
+         <city id="cty-cid-cia-Turkey-46" country="TR" province="prov-cid-cia-Turkey-74">
+            <name>Karabuk</name>
+            <population year="94">113900</population>
+         </city>
+      </province>
+   </country>
+   <country car_code="F" area="547030" capital="cty-France-Paris"
+            memberships="org-AfDB org-ACCT org-AG org-AsDB org-BIS org-CDB org-BDEAC org-CE org-CCC org-ESCAP org-ECA org-ECE org-ECLAC org-EBRD org-EIB org-CERN org-ESA org-EU org-FAO org-FZ org-G-5 org-G-7 org-G-8 org-G-10 org-IADB org-IAEA org-IBRD org-ICC org-ICAO org-ICFTU org-Interpol org-IDA org-IEA org-IFRCS org-IFC org-IFAD org-ILO org-IMO org-Inmarsat org-IMF org-IOC org-IOM org-ISO org-ICRM org-ITU org-Intelsat org-MTCR org-ANC org-NATO org-EN org-NSG org-OECD org-OSCE org-OAS org-PCA org-SPC org-UN org-UNAVEM-III org-UNCRO org-UNESCO org-UNIDO org-UNITAR org-UNIFIL org-UNIKOM org-MINURSO org-UNMIH org-UNOMIG org-UNHCR org-UNPREDEP org-UNPROFOR org-UNRWA org-UNTSO org-UNU org-UPU org-WEU org-WCL org-WFTU org-WHO org-WIPO org-WMO org-WToO org-WTrO org-ZC">
+      <name>France</name>
+      <population>58317450</population>
+      <population_growth>0.34</population_growth>
+      <infant_mortality>5.3</infant_mortality>
+      <gdp_total>1173000</gdp_total>
+      <gdp_agri>2.4</gdp_agri>
+      <gdp_ind>26.5</gdp_ind>
+      <gdp_serv>71.1</gdp_serv>
+      <inflation>1.7</inflation>
+      <government>republic</government>
+      <encompassed continent="europe" percentage="100"/>
+      <religions percentage="1">Muslim</religions>
+      <religions percentage="1">Jewish</religions>
+      <religions percentage="90">Roman Catholic</religions>
+      <religions percentage="2">Protestant</religions>
+      <languages percentage="100">French</languages>
+      <border country="AND" length="60"/>
+      <border country="E" length="623"/>
+      <border country="D" length="451"/>
+      <border country="I" length="488"/>
+      <border country="CH" length="573"/>
+      <border country="B" length="620"/>
+      <border country="L" length="73"/>
+      <border country="MC" length="4.4"/>
+      <province id="prov-cid-cia-France-2" capital="cty-France-Strasbourg" country="F">
+         <name>Alsace</name>
+         <area>8280</area>
+         <population>1624000</population>
+         <city id="cty-France-Strasbourg" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-2">
+            <name>Strasbourg</name>
+            <longitude>7.76667</longitude>
+            <latitude>48.5833</latitude>
+            <population year="90">252338</population>
+            <located_at watertype="river" river="river-Rhein"/>
+         </city>
+         <city id="cty-cid-cia-France-32" country="F" province="prov-cid-cia-France-2">
+            <name>Mulhouse</name>
+            <population year="90">108357</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-5" capital="cty-cid-cia-France-9" country="F">
+         <name>Aquitaine</name>
+         <area>41309</area>
+         <population>2796000</population>
+         <city id="cty-cid-cia-France-9" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-5">
+            <name>Bordeaux</name>
+            <longitude>-0.4</longitude>
+            <latitude>44.51</latitude>
+            <population year="90">210336</population>
+            <located_at watertype="river" river="river-Garonne"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-11" capital="cty-cid-cia-France-22" country="F">
+         <name>Auvergne</name>
+         <area>26013</area>
+         <population>1321000</population>
+         <city id="cty-cid-cia-France-22" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-11">
+            <name>Clermont Ferrand</name>
+            <longitude>3.4</longitude>
+            <latitude>45.5</latitude>
+            <population year="90">136181</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-16" capital="cty-cid-cia-France-31" country="F">
+         <name>Basse Normandie</name>
+         <area>17589</area>
+         <population>1391000</population>
+         <city id="cty-cid-cia-France-31" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-16">
+            <name>Caen</name>
+            <longitude>-0.2</longitude>
+            <latitude>49.3</latitude>
+            <population year="90">112846</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-20" capital="cty-cid-cia-France-12" country="F">
+         <name>Bretagne</name>
+         <area>27209</area>
+         <population>2796000</population>
+         <city id="cty-cid-cia-France-12" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-20">
+            <name>Rennes</name>
+            <longitude>-1.4</longitude>
+            <latitude>48.1</latitude>
+            <population year="90">197536</population>
+         </city>
+         <city id="cty-cid-cia-France-18" country="F" province="prov-cid-cia-France-20">
+            <name>Brest</name>
+            <population year="90">147956</population>
+            <located_at watertype="sea" sea="sea-Atlantic"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-25" capital="cty-cid-cia-France-19" country="F">
+         <name>Bourgogne</name>
+         <area>31582</area>
+         <population>1609000</population>
+         <city id="cty-cid-cia-France-19" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-25">
+            <name>Dijon</name>
+            <longitude>5.2</longitude>
+            <latitude>47.2</latitude>
+            <population year="90">146703</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-30" capital="cty-cid-cia-France-34" country="F">
+         <name>Centre</name>
+         <area>39151</area>
+         <population>2371000</population>
+         <city id="cty-cid-cia-France-34" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-30">
+            <name>Orleans</name>
+            <longitude>1.5</longitude>
+            <latitude>47.5</latitude>
+            <population year="90">105111</population>
+            <located_at watertype="river" river="river-Loire"/>
+         </city>
+         <city id="cty-cid-cia-France-25" country="F" province="prov-cid-cia-France-30">
+            <name>Tours</name>
+            <population year="90">129509</population>
+            <located_at watertype="river" river="river-Loire"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-37" capital="cty-cid-cia-France-Chalons"
+                country="F">
+         <name>Champagne Ardenne</name>
+         <area>25606</area>
+         <population>1348000</population>
+         <city id="cty-cid-cia-France-14" country="F" province="prov-cid-cia-France-37">
+            <name>Reims</name>
+            <longitude>4.5</longitude>
+            <latitude>49.1</latitude>
+            <population year="90">180620</population>
+         </city>
+         <city id="cty-cid-cia-France-Chalons" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-37">
+            <name>Chalons en Champagne</name>
+            <longitude>4.4</longitude>
+            <latitude>49.0</latitude>
+            <located_at watertype="river" river="river-Marne"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-42" capital="cty-cid-cia-France-Ajaccio" country="F">
+         <name>Corse</name>
+         <area>8680</area>
+         <population>250000</population>
+         <city id="cty-cid-cia-France-Ajaccio" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-42">
+            <name>Ajaccio</name>
+            <longitude>8.4</longitude>
+            <latitude>41.4</latitude>
+            <population year="87">53500</population>
+            <located_at watertype="sea" sea="sea-Mittelmeer"/>
+            <located_on island="island-Corse"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-45" capital="cty-cid-cia-France-30" country="F">
+         <name>Franche Comte</name>
+         <area>16202</area>
+         <population>1097000</population>
+         <city id="cty-cid-cia-France-30" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-45">
+            <name>Besancon</name>
+            <longitude>6.2</longitude>
+            <latitude>47.1</latitude>
+            <population year="90">113828</population>
+            <located_at watertype="river" river="river-Doubs"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-50" capital="cty-cid-cia-France-35" country="F">
+         <name>Haute Normandie</name>
+         <area>12318</area>
+         <population>1737000</population>
+         <city id="cty-cid-cia-France-35" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-50">
+            <name>Rouen</name>
+            <longitude>1.5</longitude>
+            <latitude>49.3</latitude>
+            <population year="90">102723</population>
+            <located_at watertype="river" river="river-Seine"/>
+         </city>
+         <city id="cty-cid-cia-France-13" country="F" province="prov-cid-cia-France-50">
+            <name>Le Havre</name>
+            <population year="90">195854</population>
+            <located_at watertype="sea" sea="sea-Channel"/>
+            <located_at watertype="river" river="river-Seine"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-53" capital="cty-France-Paris" country="F">
+         <name>Ile de France</name>
+         <area>12011</area>
+         <population>10660000</population>
+         <city id="cty-France-Paris" is_country_cap="yes" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-53">
+            <name>Paris</name>
+            <longitude>2.48333</longitude>
+            <latitude>48.8167</latitude>
+            <population year="90">2152423</population>
+            <located_at watertype="river" river="river-Seine"/>
+         </city>
+         <city id="cty-cid-cia-France-36" country="F" province="prov-cid-cia-France-53">
+            <name>Boulogne Billancourt</name>
+            <population year="90">101743</population>
+            <located_at watertype="river" river="river-Seine"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-62" capital="cty-cid-cia-France-10" country="F">
+         <name>Languedoc Roussillon</name>
+         <area>27376</area>
+         <population>2115000</population>
+         <city id="cty-cid-cia-France-10" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-62">
+            <name>Montpellier</name>
+            <longitude>3.5</longitude>
+            <latitude>43.3</latitude>
+            <population year="90">207996</population>
+         </city>
+         <city id="cty-cid-cia-France-26" country="F" province="prov-cid-cia-France-62">
+            <name>Nimes</name>
+            <population year="90">128471</population>
+         </city>
+         <city id="cty-cid-cia-France-33" country="F" province="prov-cid-cia-France-62">
+            <name>Perpignan</name>
+            <population year="90">105983</population>
+            <located_at watertype="sea" sea="sea-Mittelmeer"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-68" capital="cty-cid-cia-France-23" country="F">
+         <name>Limousin</name>
+         <area>16942</area>
+         <population>723000</population>
+         <city id="cty-cid-cia-France-23" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-68">
+            <name>Limoges</name>
+            <longitude>1.2</longitude>
+            <latitude>45.5</latitude>
+            <population year="90">133464</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-72" capital="cty-cid-cia-France-28" country="F">
+         <name>Lorraine</name>
+         <area>23547</area>
+         <population>2306000</population>
+         <city id="cty-cid-cia-France-28" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-72">
+            <name>Metz</name>
+            <longitude>6.2</longitude>
+            <latitude>49.1</latitude>
+            <population year="90">119594</population>
+            <located_at watertype="river" river="river-Mosel"/>
+         </city>
+         <city id="cty-cid-cia-France-37" country="F" province="prov-cid-cia-France-72">
+            <name>Nancy</name>
+            <longitude>6.1</longitude>
+            <latitude>48.4</latitude>
+            <population year="90">99351</population>
+            <located_at watertype="river" river="river-Mosel"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-77" capital="cty-cid-cia-France-5" country="F">
+         <name>Midi Pyrenees</name>
+         <area>45349</area>
+         <population>2431000</population>
+         <city id="cty-cid-cia-France-5" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-77">
+            <name>Toulouse</name>
+            <longitude>1.2</longitude>
+            <latitude>43.4</latitude>
+            <population year="90">358688</population>
+            <located_at watertype="river" river="river-Garonne"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-86" capital="cty-cid-cia-France-15" country="F">
+         <name>Nord Pas de Calais</name>
+         <area>12413</area>
+         <population>3965000</population>
+         <city id="cty-cid-cia-France-15" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-86">
+            <name>Lille</name>
+            <longitude>3.3</longitude>
+            <latitude>50.37</latitude>
+            <population year="90">172142</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-89" capital="cty-France-Nantes" country="F">
+         <name>Pays de la Loire</name>
+         <area>32082</area>
+         <population>3059000</population>
+         <city id="cty-France-Nantes" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-89">
+            <name>Nantes</name>
+            <longitude>-1.56667</longitude>
+            <latitude>47.25</latitude>
+            <population year="90">244995</population>
+            <located_at watertype="river" river="river-Loire"/>
+         </city>
+         <city id="cty-cid-cia-France-21" country="F" province="prov-cid-cia-France-89">
+            <name>Angers</name>
+            <population year="90">141404</population>
+         </city>
+         <city id="cty-cid-cia-France-20" country="F" province="prov-cid-cia-France-89">
+            <name>Le Mans</name>
+            <population year="90">145502</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-95" capital="cty-cid-cia-France-24" country="F">
+         <name>Picardie</name>
+         <area>19399</area>
+         <population>1811000</population>
+         <city id="cty-cid-cia-France-24" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-95">
+            <name>Amiens</name>
+            <longitude>2.19</longitude>
+            <latitude>49.55</latitude>
+            <population year="90">131872</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-99" capital="cty-cid-cia-France-Poitiers" country="F">
+         <name>Poitou Charentes</name>
+         <area>25809</area>
+         <population>1595000</population>
+         <city id="cty-cid-cia-France-Poitiers" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-99">
+            <name>Poitiers</name>
+            <longitude>0.2</longitude>
+            <latitude>46.4</latitude>
+            <population year="87">79300</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-104" capital="cty-cid-cia-France-3" country="F">
+         <name>Provence Cote dAzur</name>
+         <area>31400</area>
+         <population>4258000</population>
+         <city id="cty-cid-cia-France-3" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-104">
+            <name>Marseille</name>
+            <longitude>5.2</longitude>
+            <latitude>43.2</latitude>
+            <population year="90">800550</population>
+            <located_at watertype="sea" sea="sea-Mittelmeer"/>
+         </city>
+         <city id="cty-France-Nice" country="F" province="prov-cid-cia-France-104">
+            <name>Nice</name>
+            <longitude>7.26667</longitude>
+            <latitude>43.7</latitude>
+            <population year="90">342439</population>
+            <located_at watertype="sea" sea="sea-Mittelmeer"/>
+         </city>
+         <city id="cty-cid-cia-France-16" country="F" province="prov-cid-cia-France-104">
+            <name>Toulon</name>
+            <population year="90">167619</population>
+            <located_at watertype="sea" sea="sea-Mittelmeer"/>
+         </city>
+         <city id="cty-cid-cia-France-27" country="F" province="prov-cid-cia-France-104">
+            <name>Aix en Provence</name>
+            <population year="90">123842</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-France-111" capital="cty-France-Lyon" country="F">
+         <name>Rhone Alpes</name>
+         <area>43698</area>
+         <population>5351000</population>
+         <city id="cty-France-Lyon" is_state_cap="yes" country="F"
+               province="prov-cid-cia-France-111">
+            <name>Lyon</name>
+            <longitude>4.78333</longitude>
+            <latitude>45.7</latitude>
+            <population year="90">415487</population>
+            <located_at watertype="river" river="river-Saone"/>
+            <located_at watertype="river" river="river-Rhone"/>
+         </city>
+         <city id="cty-cid-cia-France-17" country="F" province="prov-cid-cia-France-111">
+            <name>Grenoble</name>
+            <population year="90">150758</population>
+            <located_at watertype="river" river="river-Isere"/>
+         </city>
+         <city id="cty-cid-cia-France-11" country="F" province="prov-cid-cia-France-111">
+            <name>Saint Etienne</name>
+            <population year="90">199396</population>
+         </city>
+         <city id="cty-cid-cia-France-29" country="F" province="prov-cid-cia-France-111">
+            <name>Villeurbanne</name>
+            <population year="90">116872</population>
+            <located_at watertype="river" river="river-Rhone"/>
+         </city>
+      </province>
+   </country>
+   <country car_code="ROK" area="98480" capital="cty-cid-cia-South-Korea-2"
+            memberships="org-AfDB org-APEC org-AsDB org-CP org-CCC org-ESCAP org-EBRD org-FAO org-G-77 org-IAEA org-IBRD org-ICC org-ICAO org-ICFTU org-Interpol org-IDA org-IFRCS org-IFC org-IFAD org-ILO org-IMO org-Inmarsat org-IMF org-IOC org-IOM org-ISO org-ICRM org-ITU org-Intelsat org-NSG org-OAS org-UN org-UNESCO org-UNIDO org-UNMOGIP org-MINURSO org-UNOMIG org-UNU org-UPU org-WHO org-WIPO org-WMO org-WToO org-WTrO">
+      <name>South Korea</name>
+      <population>45482291</population>
+      <population_growth>1.02</population_growth>
+      <infant_mortality>8.2</infant_mortality>
+      <gdp_total>590700</gdp_total>
+      <gdp_agri>8</gdp_agri>
+      <gdp_ind>45</gdp_ind>
+      <gdp_serv>47</gdp_serv>
+      <inflation>4.3</inflation>
+      <government>republic</government>
+      <encompassed continent="asia" percentage="100"/>
+      <religions percentage="47.4">Buddhist</religions>
+      <religions percentage="48.6">Christian</religions>
+      <religions percentage="3">Confucianism</religions>
+      <religions percentage="0.2">Chondogyo</religions>
+      <border country="NOK" length="238"/>
+      <city id="cty-cid-cia-South-Korea-2" is_country_cap="yes" country="ROK">
+         <name>Seoul</name>
+         <longitude>126.967</longitude>
+         <latitude>37.5667</latitude>
+         <population year="95">10229262</population>
+      </city>
+      <city id="cty-cid-cia-South-Korea-3" country="ROK">
+         <name>Pusan</name>
+         <population year="95">3813814</population>
+         <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+      </city>
+      <city id="cty-cid-cia-South-Korea-4" country="ROK">
+         <name>Taegu</name>
+         <population year="95">2449139</population>
+      </city>
+      <city id="cty-cid-cia-South-Korea-5" country="ROK">
+         <name>Inchon</name>
+         <population year="95">2307618</population>
+         <located_at watertype="sea" sea="sea-Gelbes_Meer"/>
+      </city>
+      <city id="cty-cid-cia-South-Korea-6" country="ROK">
+         <name>Kwangju</name>
+         <population year="95">1257504</population>
+      </city>
+      <city id="cty-cid-cia-South-Korea-7" country="ROK">
+         <name>Taejon</name>
+         <population year="95">1272143</population>
+      </city>
+      <city id="cty-cid-cia-South-Korea-8" country="ROK">
+         <name>Ulsan</name>
+         <population year="95">967394</population>
+         <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+      </city>
+      <city id="cty-cid-cia-South-Korea-9" country="ROK">
+         <name>Suwon</name>
+         <population year="95">755502</population>
+      </city>
+      <city id="cty-cid-cia-South-Korea-10" country="ROK">
+         <name>Songnam</name>
+         <population year="95">869243</population>
+      </city>
+      <city id="cty-cid-cia-South-Korea-11" country="ROK">
+         <name>Chonju</name>
+         <population year="95">563406</population>
+      </city>
+      <city id="cty-cid-cia-South-Korea-12" country="ROK">
+         <name>Masan</name>
+         <population year="95">441358</population>
+      </city>
+      <city id="cty-cid-cia-South-Korea-13" country="ROK">
+         <name>Chongju</name>
+         <population year="95">531195</population>
+      </city>
+      <city id="cty-cid-cia-South-Korea-14" country="ROK">
+         <name>Chinju</name>
+         <population year="95">329913</population>
+      </city>
+      <city id="cty-cid-cia-South-Korea-15" country="ROK">
+         <name>Mokpo</name>
+         <population year="95">247524</population>
+         <located_at watertype="sea" sea="sea-Gelbes_Meer"/>
+      </city>
+      <city id="cty-cid-cia-South-Korea-16" country="ROK">
+         <name>Cheju</name>
+         <population year="95">258509</population>
+      </city>
+      <city id="cty-cid-cia-South-Korea-17" country="ROK">
+         <name>Kunsan</name>
+         <population year="95">266517</population>
+         <located_at watertype="sea" sea="sea-Gelbes_Meer"/>
+      </city>
+      <city id="cty-cid-cia-South-Korea-18" country="ROK">
+         <name>Chunchon</name>
+         <population year="95">235067</population>
+      </city>
+      <city id="cty-cid-cia-South-Korea-19" country="ROK">
+         <name>Yosu</name>
+         <population year="95">183557</population>
+         <located_at watertype="sea" sea="sea-EastChinaSea"/>
+      </city>
+   </country>
+   <country car_code="J" area="377835" capital="cty-Japan-Tokyo"
+            memberships="org-AfDB org-AG org-APEC org-AsDB org-BIS org-CP org-CCC org-ESCAP org-EBRD org-FAO org-G-2 org-G-5 org-G-7 org-G-8 org-G-10 org-IADB org-IAEA org-IBRD org-ICC org-ICAO org-ICFTU org-Interpol org-IDA org-IEA org-IFRCS org-IFC org-IFAD org-ILO org-IMO org-Inmarsat org-IMF org-IOC org-IOM org-ISO org-ICRM org-ITU org-Intelsat org-MTCR org-EN org-NSG org-OECD org-OAS org-PCA org-UN org-UNESCO org-UNIDO org-UNITAR org-UNHCR org-UNRWA org-UNU org-UPU org-WFTU org-WHO org-WIPO org-WMO org-WToO org-WTrO org-ZC">
+      <name>Japan</name>
+      <population>125449703</population>
+      <population_growth>0.21</population_growth>
+      <infant_mortality>4.4</infant_mortality>
+      <gdp_total>2679200</gdp_total>
+      <gdp_agri>2.1</gdp_agri>
+      <gdp_ind>40.2</gdp_ind>
+      <gdp_serv>57.7</gdp_serv>
+      <inflation>-0.1</inflation>
+      <government>constitutional monarchy</government>
+      <encompassed continent="asia" percentage="100"/>
+      <ethnicgroups percentage="99.4">Japanese</ethnicgroups>
+      <religions percentage="84">Buddhist</religions>
+      <languages percentage="100">Japanese</languages>
+      <province id="prov-cid-cia-Japan-3" capital="cty-Japan-Sapporo" country="J">
+         <name>Hokkaido</name>
+         <area>83519</area>
+         <population>5692321</population>
+         <city id="cty-Japan-Sapporo" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-3">
+            <name>Sapporo</name>
+            <longitude>141.35</longitude>
+            <latitude>43.0667</latitude>
+            <population year="95">1748000</population>
+            <located_on island="island-Hokkaido"/>
+         </city>
+         <city id="cty-Japan-Hakodate" country="J"
+               province="prov-cid-cia-Japan-3">
+            <name>Hakodate</name>
+            <longitude>140.7</longitude>
+            <latitude>41.8</latitude>
+            <population year="09">287691</population>
+            <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Hokkaido"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-5" capital="cty-cid-cia-Japan-Aomori" country="J">
+         <name>Aomori</name>
+         <area>9619</area>
+         <population>1481663</population>
+         <city id="cty-cid-cia-Japan-Aomori" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-5">
+            <name>Aomori</name>
+            <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-6" capital="cty-cid-cia-Japan-Morioka" country="J">
+         <name>Iwate</name>
+         <area>15277</area>
+         <population>1419505</population>
+         <city id="cty-cid-cia-Japan-Morioka" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-6">
+            <name>Morioka</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-7" capital="cty-cid-cia-Japan-13" country="J">
+         <name>Miyagi</name>
+         <area>7292</area>
+         <population>2328739</population>
+         <city id="cty-cid-cia-Japan-13" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-7">
+            <name>Sendai</name>
+            <population year="95">967000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-8" capital="cty-cid-cia-Japan-Akita" country="J">
+         <name>Akita</name>
+         <area>11612</area>
+         <population>1213667</population>
+         <city id="cty-cid-cia-Japan-Akita" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-8">
+            <name>Akita</name>
+            <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-9" capital="cty-cid-cia-Japan-Yamagata" country="J">
+         <name>Yamagata</name>
+         <area>9327</area>
+         <population>1256958</population>
+         <city id="cty-cid-cia-Japan-Yamagata" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-9">
+            <name>Yamagata</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-10" capital="cty-cid-cia-Japan-Fukushima" country="J">
+         <name>Fukushima</name>
+         <area>13784</area>
+         <population>2133592</population>
+         <city id="cty-cid-cia-Japan-Fukushima" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-10">
+            <name>Fukushima</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-12" capital="cty-cid-cia-Japan-Mito" country="J">
+         <name>Ibaraki</name>
+         <area>6094</area>
+         <population>2955530</population>
+         <city id="cty-cid-cia-Japan-Mito" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-12">
+            <name>Mito</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-13" capital="cty-cid-cia-Japan-Utsonomiya" country="J">
+         <name>Tochigi</name>
+         <area>6414</area>
+         <population>1984390</population>
+         <city id="cty-cid-cia-Japan-Utsonomiya" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-13">
+            <name>Utsonomiya</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-14" capital="cty-cid-cia-Japan-Maebashi" country="J">
+         <name>Gumma</name>
+         <area>6356</area>
+         <population>2003540</population>
+         <city id="cty-cid-cia-Japan-Maebashi" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-14">
+            <name>Maebashi</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-15" capital="cty-cid-cia-Japan-Urawa" country="J">
+         <name>Saitama</name>
+         <area>3799</area>
+         <population>6759311</population>
+         <city id="cty-cid-cia-Japan-Urawa" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-15">
+            <name>Urawa</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-16" capital="cty-cid-cia-Japan-14" country="J">
+         <name>Chiba</name>
+         <area>5150</area>
+         <population>5797782</population>
+         <city id="cty-cid-cia-Japan-14" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-16">
+            <name>Chiba</name>
+            <population year="95">843000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-17" capital="cty-Japan-Tokyo" country="J">
+         <name>Tokyo</name>
+         <area>2164</area>
+         <population>11773605</population>
+         <city id="cty-Japan-Tokyo" is_country_cap="yes" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-17">
+            <name>Tokyo</name>
+            <longitude>139.767</longitude>
+            <latitude>35.6833</latitude>
+            <population year="95">7843000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-18" capital="cty-cid-cia-Japan-3" country="J">
+         <name>Kanagawa</name>
+         <area>2402</area>
+         <population>8245900</population>
+         <city id="cty-cid-cia-Japan-3" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-18">
+            <name>Yokohama</name>
+            <longitude>139.32</longitude>
+            <latitude>35.3</latitude>
+            <population year="95">3256000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+         <city id="cty-cid-cia-Japan-10" country="J" province="prov-cid-cia-Japan-18">
+            <name>Kawasaki</name>
+            <population year="95">1187000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-20" capital="cty-cid-cia-Japan-Niigata" country="J">
+         <name>Niigata</name>
+         <area>12579</area>
+         <population>2488364</population>
+         <city id="cty-cid-cia-Japan-Niigata" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-20">
+            <name>Niigata</name>
+            <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-21" capital="cty-cid-cia-Japan-Toyama" country="J">
+         <name>Toyama</name>
+         <area>4252</area>
+         <population>1123125</population>
+         <city id="cty-cid-cia-Japan-Toyama" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-21">
+            <name>Toyama</name>
+            <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-22" capital="cty-cid-cia-Japan-Kanazawa" country="J">
+         <name>Ishikawa</name>
+         <area>4197</area>
+         <population>1180068</population>
+         <city id="cty-cid-cia-Japan-Kanazawa" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-22">
+            <name>Kanazawa</name>
+            <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-23" capital="cty-cid-cia-Japan-Fukui" country="J">
+         <name>Fukui</name>
+         <area>4192</area>
+         <population>826996</population>
+         <city id="cty-cid-cia-Japan-Fukui" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-23">
+            <name>Fukui</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-24" capital="cty-cid-cia-Japan-Kofu" country="J">
+         <name>Yamanashi</name>
+         <area>4463</area>
+         <population>881996</population>
+         <city id="cty-cid-cia-Japan-Kofu" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-24">
+            <name>Kofu</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-25" capital="cty-cid-cia-Japan-Nagano" country="J">
+         <name>Nagano</name>
+         <area>13585</area>
+         <population>2193984</population>
+         <city id="cty-cid-cia-Japan-Nagano" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-25">
+            <name>Nagano</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-26" capital="cty-cid-cia-Japan-Gifu" country="J">
+         <name>Gifu</name>
+         <area>10596</area>
+         <population>2100315</population>
+         <city id="cty-cid-cia-Japan-Gifu" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-26">
+            <name>Gifu</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-27" capital="cty-cid-cia-Japan-Shizuoka" country="J">
+         <name>Shizuoka</name>
+         <area>7773</area>
+         <population>3737689</population>
+         <city id="cty-cid-cia-Japan-Shizuoka" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-27">
+            <name>Shizuoka</name>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-28" capital="cty-cid-cia-Japan-5" country="J">
+         <name>Aichi</name>
+         <area>5138</area>
+         <population>6868336</population>
+         <city id="cty-cid-cia-Japan-5" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-28">
+            <name>Nagoya</name>
+            <population year="95">2108000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-30" capital="cty-cid-cia-Japan-Tsu" country="J">
+         <name>Mie</name>
+         <area>5778</area>
+         <population>1841358</population>
+         <city id="cty-cid-cia-Japan-Tsu" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-30">
+            <name>Tsu</name>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-31" capital="cty-cid-cia-Japan-Otsu" country="J">
+         <name>Shiga</name>
+         <area>4016</area>
+         <population>1287005</population>
+         <city id="cty-cid-cia-Japan-Otsu" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-31">
+            <name>Otsu</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-32" capital="cty-cid-cia-Japan-7" country="J">
+         <name>Kyoto</name>
+         <area>4613</area>
+         <population>2629592</population>
+         <city id="cty-cid-cia-Japan-7" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-32">
+            <name>Kyoto</name>
+            <longitude>135.45</longitude>
+            <latitude>35</latitude>
+            <population year="95">1415000</population>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-33" capital="cty-cid-cia-Japan-4" country="J">
+         <name>Osaka</name>
+         <area>1868</area>
+         <population>8797268</population>
+         <city id="cty-cid-cia-Japan-4" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-33">
+            <name>Osaka</name>
+            <population year="95">2492000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-34" capital="cty-cid-cia-Japan-8" country="J">
+         <name>Hyogo</name>
+         <area>8381</area>
+         <population>5401877</population>
+         <city id="cty-cid-cia-Japan-8" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-34">
+            <name>Kobe</name>
+            <population year="95">1388000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-35" capital="cty-cid-cia-Japan-Nara" country="J">
+         <name>Nara</name>
+         <area>3692</area>
+         <population>1430862</population>
+         <city id="cty-cid-cia-Japan-Nara" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-35">
+            <name>Nara</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-36" capital="cty-cid-cia-Japan-Wakayama" country="J">
+         <name>Wakayama</name>
+         <area>4725</area>
+         <population>1080435</population>
+         <city id="cty-cid-cia-Japan-Wakayama" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-36">
+            <name>Wakayama</name>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-38" capital="cty-cid-cia-Japan-Tottori" country="J">
+         <name>Tottori</name>
+         <area>3494</area>
+         <population>614929</population>
+         <city id="cty-cid-cia-Japan-Tottori" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-38">
+            <name>Tottori</name>
+            <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-39" capital="cty-cid-cia-Japan-Matsue" country="J">
+         <name>Shimane</name>
+         <area>6628</area>
+         <population>771441</population>
+         <city id="cty-cid-cia-Japan-Matsue" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-39">
+            <name>Matsue</name>
+            <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-40" capital="cty-cid-cia-Japan-Okayama" country="J">
+         <name>Okayama</name>
+         <area>7090</area>
+         <population>1950750</population>
+         <city id="cty-cid-cia-Japan-Okayama" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-40">
+            <name>Okayama</name>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-41" capital="cty-cid-cia-Japan-11" country="J">
+         <name>Hiroshima</name>
+         <area>8467</area>
+         <population>2881748</population>
+         <city id="cty-cid-cia-Japan-11" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-41">
+            <name>Hiroshima</name>
+            <longitude>132.3</longitude>
+            <latitude>34.3</latitude>
+            <population year="95">1099000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-42" capital="cty-cid-cia-Japan-Yamaguchi" country="J">
+         <name>Yamaguchi</name>
+         <area>6106</area>
+         <population>1555543</population>
+         <city id="cty-cid-cia-Japan-Yamaguchi" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-42">
+            <name>Yamaguchi</name>
+            <located_on island="island-Honshu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-44" capital="cty-cid-cia-Japan-Tokushima" country="J">
+         <name>Tokushima</name>
+         <area>4145</area>
+         <population>832427</population>
+         <city id="cty-cid-cia-Japan-Tokushima" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-44">
+            <name>Tokushima</name>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Shikoku"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-45" capital="cty-cid-cia-Japan-Takamatsu" country="J">
+         <name>Kagawa</name>
+         <area>1882</area>
+         <population>1027006</population>
+         <city id="cty-cid-cia-Japan-Takamatsu" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-45">
+            <name>Takamatsu</name>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Shikoku"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-46" capital="cty-cid-cia-Japan-Matsuyama" country="J">
+         <name>Ehime</name>
+         <area>5672</area>
+         <population>1506700</population>
+         <city id="cty-cid-cia-Japan-Matsuyama" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-46">
+            <name>Matsuyama</name>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Shikoku"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-47" capital="cty-cid-cia-Japan-Kochi" country="J">
+         <name>Kochi</name>
+         <area>7107</area>
+         <population>816704</population>
+         <city id="cty-cid-cia-Japan-Kochi" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-47">
+            <name>Kochi</name>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Shikoku"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-49" capital="cty-Japan-Fukuoka" country="J">
+         <name>Fukuoka</name>
+         <area>4961</area>
+         <population>4933393</population>
+         <city id="cty-Japan-Fukuoka" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-49">
+            <name>Fukuoka</name>
+            <longitude>130.45</longitude>
+            <latitude>33.5833</latitude>
+            <population year="95">1273000</population>
+            <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+            <located_on island="island-Kyushu"/>
+         </city>
+         <city id="cty-cid-cia-Japan-12" country="J" province="prov-cid-cia-Japan-49">
+            <name>Kita Kyushu</name>
+            <population year="95">1012000</population>
+            <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+            <located_on island="island-Kyushu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-50" capital="cty-cid-cia-Japan-Saga" country="J">
+         <name>Saga</name>
+         <area>2433</area>
+         <population>884316</population>
+         <city id="cty-cid-cia-Japan-Saga" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-50">
+            <name>Saga</name>
+            <located_on island="island-Kyushu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-51" capital="cty-cid-cia-Japan-Nagasaki" country="J">
+         <name>Nagasaki</name>
+         <area>4112</area>
+         <population>1544934</population>
+         <city id="cty-cid-cia-Japan-Nagasaki" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-51">
+            <name>Nagasaki</name>
+            <located_at watertype="sea" sea="sea-EastChinaSea"/>
+            <located_on island="island-Kyushu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-52" capital="cty-cid-cia-Japan-Kumamoto" country="J">
+         <name>Kumamoto</name>
+         <area>7408</area>
+         <population>1859793</population>
+         <city id="cty-cid-cia-Japan-Kumamoto" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-52">
+            <name>Kumamoto</name>
+            <located_on island="island-Kyushu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-53" capital="cty-cid-cia-Japan-Oita" country="J">
+         <name>Oita</name>
+         <area>6338</area>
+         <population>1231306</population>
+         <city id="cty-cid-cia-Japan-Oita" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-53">
+            <name>Oita</name>
+            <located_at watertype="sea" sea="sea-Japanisches_Meer"/>
+            <located_on island="island-Kyushu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-54" capital="cty-cid-cia-Japan-Miyazaki" country="J">
+         <name>Miyazaki</name>
+         <area>7735</area>
+         <population>1175819</population>
+         <city id="cty-cid-cia-Japan-Miyazaki" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-54">
+            <name>Miyazaki</name>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Kyushu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-55" capital="cty-cid-cia-Japan-Kagoshima" country="J">
+         <name>Kagoshima</name>
+         <area>9166</area>
+         <population>1794224</population>
+         <city id="cty-cid-cia-Japan-Kagoshima" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-55">
+            <name>Kagoshima</name>
+            <located_at watertype="sea" sea="sea-EastChinaSea"/>
+            <located_on island="island-Kyushu"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Japan-56" capital="cty-cid-cia-Japan-Naha" country="J">
+         <name>Okinawa</name>
+         <area>2255</area>
+         <population>1273440</population>
+         <city id="cty-cid-cia-Japan-Naha" is_state_cap="yes" country="J"
+               province="prov-cid-cia-Japan-56">
+            <name>Naha</name>
+            <located_at watertype="sea" sea="sea-EastChinaSea"/>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Okinawa"/>
+         </city>
+      </province>
+   </country>
+   <country car_code="AUS" area="7686850" capital="cty-cid-cia-Australia-8"
+            memberships="org-AG org-AsDB org-ANZUS org-BIS org-CP org-C org-CCC org-ESCAP org-EBRD org-FAO org-IAEA org-IBRD org-ICC org-ICAO org-ICFTU org-Interpol org-IDA org-IEA org-IFRCS org-IFC org-IFAD org-ILO org-IMO org-Inmarsat org-IMF org-IOC org-IOM org-ISO org-ICRM org-ITU org-Intelsat org-MTCR org-NAM org-EN org-NSG org-OECD org-PCA org-SPC org-SPF org-Sparteca org-UN org-UNAMIR org-UNESCO org-UNFICYP org-UNIDO org-UNHCR org-UNTSO org-UNU org-UPU org-WFTU org-WHO org-WIPO org-WMO org-WTrO org-ZC">
+      <name>Australia</name>
+      <population>18260863</population>
+      <population_growth>0.99</population_growth>
+      <infant_mortality>5.5</infant_mortality>
+      <gdp_total>405400</gdp_total>
+      <gdp_agri>3.1</gdp_agri>
+      <gdp_ind>27.7</gdp_ind>
+      <gdp_serv>69.2</gdp_serv>
+      <inflation>4.75</inflation>
+      <indep_date>1901-01-01</indep_date>
+      <government>federal parliamentary state</government>
+      <encompassed continent="australia" percentage="100"/>
+      <ethnicgroups percentage="4">Asian</ethnicgroups>
+      <ethnicgroups percentage="95">Caucasian</ethnicgroups>
+      <religions percentage="26">Roman Catholic</religions>
+      <religions percentage="26.1">Anglican</religions>
+      <religions percentage="24.3">Christian</religions>
+      <languages percentage="100">English</languages>
+      <province id="prov-cid-cia-Australia-2" capital="cty-Australia-Sydney" country="AUS">
+         <name>New South Wales</name>
+         <area>801428</area>
+         <population>6115100</population>
+         <city id="cty-cid-cia-Australia-7" country="AUS" province="prov-cid-cia-Australia-2">
+            <name>Newcastle</name>
+            <population year="90">429000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+         </city>
+         <city id="cty-Australia-Sydney" is_state_cap="yes" country="AUS"
+               province="prov-cid-cia-Australia-2">
+            <name>Sydney</name>
+            <longitude>151.2</longitude>
+            <latitude>-33.8667</latitude>
+            <population year="90">3657000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+         </city>
+         <city id="cty-cid-cia-Australia-10" country="AUS" province="prov-cid-cia-Australia-2">
+            <name>Wollongong</name>
+            <population year="90">238000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+         </city>
+         <city id="cty-cid-cia-Australia-14" country="AUS" province="prov-cid-cia-Australia-2">
+            <name>Sunshine Coast</name>
+            <population year="90">110000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Australia-3" capital="cty-Australia-Darwin" country="AUS">
+         <name>Northern Territory</name>
+         <area>1346200</area>
+         <population>173878</population>
+         <city id="cty-Australia-Darwin" is_state_cap="yes" country="AUS"
+               province="prov-cid-cia-Australia-3">
+            <name>Darwin</name>
+            <longitude>130.85</longitude>
+            <latitude>-12.4667</latitude>
+            <population year="87">68500</population>
+            <located_at watertype="sea" sea="sea-Indic"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Australia-4" capital="cty-Australia-Brisbane" country="AUS">
+         <name>Queensland</name>
+         <area>1727000</area>
+         <population>3277000</population>
+         <city id="cty-Australia-Brisbane" is_state_cap="yes" country="AUS"
+               province="prov-cid-cia-Australia-4">
+            <name>Brisbane</name>
+            <longitude>153.033</longitude>
+            <latitude>-27.4667</latitude>
+            <population year="90">1302000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+         </city>
+         <city id="cty-cid-cia-Australia-9" country="AUS" province="prov-cid-cia-Australia-4">
+            <name>Gold Coast</name>
+            <population year="90">266000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+         </city>
+         <city id="cty-cid-cia-Australia-13" country="AUS" province="prov-cid-cia-Australia-4">
+            <name>Townsville</name>
+            <population year="90">114000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Australia-5" capital="cty-Australia-Adelaide" country="AUS">
+         <name>South Australia</name>
+         <area>984377</area>
+         <population>1474000</population>
+         <city id="cty-Australia-Adelaide" is_state_cap="yes" country="AUS"
+               province="prov-cid-cia-Australia-5">
+            <name>Adelaide</name>
+            <longitude>138.583</longitude>
+            <latitude>-34.9333</latitude>
+            <population year="90">1050000</population>
+            <located_at watertype="sea" sea="sea-Indic"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Australia-6" capital="cty-cid-cia-Australia-11" country="AUS">
+         <name>Tasmania</name>
+         <area>67800</area>
+         <population>473022</population>
+         <city id="cty-cid-cia-Australia-11" is_state_cap="yes" country="AUS"
+               province="prov-cid-cia-Australia-6">
+            <name>Hobart</name>
+            <longitude>147.14</longitude>
+            <latitude>-42.5</latitude>
+            <population year="90">184000</population>
+            <located_at watertype="sea" sea="sea-Pacific"/>
+            <located_on island="island-Tasmania"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Australia-7" capital="cty-Australia-Melbourne" country="AUS">
+         <name>Victoria</name>
+         <area>227600</area>
+         <population>4502200</population>
+         <city id="cty-Australia-Melbourne" is_state_cap="yes" country="AUS"
+               province="prov-cid-cia-Australia-7">
+            <name>Melbourne</name>
+            <longitude>144.967</longitude>
+            <latitude>-37.8167</latitude>
+            <population year="90">3081000</population>
+            <located_at watertype="sea" sea="sea-Indic"/>
+         </city>
+         <city id="cty-cid-cia-Australia-12" country="AUS" province="prov-cid-cia-Australia-7">
+            <name>Geelong</name>
+            <population year="90">151000</population>
+            <located_at watertype="sea" sea="sea-Indic"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Australia-8" capital="cty-Australia-Perth" country="AUS">
+         <name>Western Australia</name>
+         <area>2525500</area>
+         <population>1731700</population>
+         <city id="cty-Australia-Perth" is_state_cap="yes" country="AUS"
+               province="prov-cid-cia-Australia-8">
+            <name>Perth</name>
+            <longitude>115.85</longitude>
+            <latitude>-31.95</latitude>
+            <population year="90">1193000</population>
+            <located_at watertype="sea" sea="sea-Indic"/>
+         </city>
+         <city id="stadt-Albany-AUS-WES" country="AUS" province="prov-cid-cia-Australia-8">
+            <name>Albany</name>
+            <longitude>118</longitude>
+            <latitude>-35</latitude>
+            <located_at watertype="sea" sea="sea-Indic"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Australia-9" capital="cty-cid-cia-Australia-8" country="AUS">
+         <name>Australia Capital Territory</name>
+         <area>2452</area>
+         <population>304100</population>
+         <city id="cty-cid-cia-Australia-8" is_country_cap="yes" is_state_cap="yes"
+               country="AUS"
+               province="prov-cid-cia-Australia-9">
+            <name>Canberra</name>
+            <longitude>149.08</longitude>
+            <latitude>-35.1</latitude>
+            <population year="90">310000</population>
+            <located_at watertype="lake" lake="lake-LakeBurleyGriffin"/>
+            <located_at watertype="river" river="river-MurrumbidgeeRiver"/>
+         </city>
+      </province>
+   </country>
+   <country car_code="PE" area="1285220" capital="cty-Peru-Lima"
+            memberships="org-OPANAL org-AG org-CCC org-ECLAC org-FAO org-G-11 org-G-15 org-G-19 org-G-24 org-G-77 org-IADB org-IAEA org-IBRD org-ICAO org-ICFTU org-Interpol org-IDA org-IFRCS org-IFC org-IFAD org-ILO org-IMO org-Inmarsat org-IMF org-IOC org-IOM org-ISO org-ICRM org-ITU org-Intelsat org-LAES org-LAIA org-NAM org-OAS org-PCA org-RG org-UN org-UNESCO org-UNIDO org-UPU org-WCL org-WFTU org-WHO org-WIPO org-WMO org-WToO org-WTrO">
+      <name>Peru</name>
+      <population>24523408</population>
+      <population_growth>1.74</population_growth>
+      <infant_mortality>52.2</infant_mortality>
+      <gdp_total>87000</gdp_total>
+      <inflation>10.2</inflation>
+      <indep_date>1821-07-28</indep_date>
+      <government>republic</government>
+      <encompassed continent="america" percentage="100"/>
+      <ethnicgroups percentage="45">Indian</ethnicgroups>
+      <religions percentage="100">Roman Catholic</religions>
+      <border country="CO" length="2900"/>
+      <border country="BOL" length="900"/>
+      <border country="BR" length="1560"/>
+      <border country="RCH" length="160"/>
+      <border country="EC" length="1420"/>
+      <province id="prov-cid-cia-Peru-2" capital="cty-cid-cia-Peru-Chachapoyas" country="PE">
+         <name>Amazonas</name>
+         <area>39249</area>
+         <population>374587</population>
+         <city id="cty-cid-cia-Peru-Chachapoyas" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-2">
+            <name>Chachapoyas</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-3" capital="cty-cid-cia-Peru-Huaraz" country="PE">
+         <name>Ancash</name>
+         <area>35825</area>
+         <population>1024398</population>
+         <city id="cty-cid-cia-Peru-8" country="PE" province="prov-cid-cia-Peru-3">
+            <name>Chimbote</name>
+            <population year="93">268979</population>
+         </city>
+         <city id="cty-cid-cia-Peru-Huaraz" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-3">
+            <name>Huaraz</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-4" capital="cty-cid-cia-Peru-Abancay" country="PE">
+         <name>Apurimac</name>
+         <area>20895</area>
+         <population>409630</population>
+         <city id="cty-cid-cia-Peru-Abancay" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-4">
+            <name>Abancay</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-5" capital="cty-cid-cia-Peru-3" country="PE">
+         <name>Arequipa</name>
+         <area>63345</area>
+         <population>999851</population>
+         <city id="cty-cid-cia-Peru-3" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-5">
+            <name>Arequipa</name>
+            <population year="93">619156</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-6" capital="cty-cid-cia-Peru-18" country="PE">
+         <name>Ayacucho</name>
+         <area>43814</area>
+         <population>517397</population>
+         <city id="cty-cid-cia-Peru-18" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-6">
+            <name>Ayacucho</name>
+            <population year="93">105918</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-7" capital="cty-cid-cia-Peru-19" country="PE">
+         <name>Cajamarca</name>
+         <area>33247</area>
+         <population>1349129</population>
+         <city id="cty-cid-cia-Peru-19" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-7">
+            <name>Cajamarca</name>
+            <population year="93">92447</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-8" capital="cty-cid-cia-Peru-Callao" country="PE">
+         <name>Callao</name>
+         <area>146</area>
+         <population>701022</population>
+         <city id="cty-cid-cia-Peru-Callao" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-8">
+            <name>Callao</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-9" capital="cty-cid-cia-Peru-10" country="PE">
+         <name>Cuzco</name>
+         <area>71891</area>
+         <population>1107473</population>
+         <city id="cty-cid-cia-Peru-10" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-9">
+            <name>Cuzco</name>
+            <longitude>-72</longitude>
+            <latitude>-13.2</latitude>
+            <population year="93">255568</population>
+            <located_at watertype="river" river="river-Amazonas"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-10" capital="cty-cid-cia-Peru-Huancavelica" country="PE">
+         <name>Huancavelica</name>
+         <area>22131</area>
+         <population>413136</population>
+         <city id="cty-cid-cia-Peru-Huancavelica" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-10">
+            <name>Huancavelica</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-11" capital="cty-cid-cia-Peru-16" country="PE">
+         <name>Huanuco</name>
+         <area>36938</area>
+         <population>722669</population>
+         <city id="cty-cid-cia-Peru-16" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-11">
+            <name>Huanuco</name>
+            <population year="93">118814</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-12" capital="cty-cid-cia-Peru-13" country="PE">
+         <name>Ica</name>
+         <area>21327</area>
+         <population>608609</population>
+         <city id="cty-cid-cia-Peru-13" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-12">
+            <name>Ica</name>
+            <population year="93">161406</population>
+         </city>
+         <city id="cty-cid-cia-Peru-17" country="PE" province="prov-cid-cia-Peru-12">
+            <name>Chincha Alta</name>
+            <population year="93">110016</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-13" capital="cty-cid-cia-Peru-9" country="PE">
+         <name>Junin</name>
+         <area>44409</area>
+         <population>1132448</population>
+         <city id="cty-cid-cia-Peru-9" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-13">
+            <name>Huancayo</name>
+            <population year="93">258209</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-14" capital="cty-cid-cia-Peru-4" country="PE">
+         <name>La Libertad</name>
+         <area>25569</area>
+         <population>1366125</population>
+         <city id="cty-cid-cia-Peru-4" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-14">
+            <name>Trujillo</name>
+            <population year="93">509312</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-15" capital="cty-cid-cia-Peru-5" country="PE">
+         <name>Lambayeque</name>
+         <area>14231</area>
+         <population>1009655</population>
+         <city id="cty-cid-cia-Peru-5" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-15">
+            <name>Chiclayo</name>
+            <population year="93">411536</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-16" capital="cty-Peru-Lima" country="PE">
+         <name>Lima</name>
+         <area>34801</area>
+         <population>6941672</population>
+         <city id="cty-Peru-Lima" is_country_cap="yes" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-16">
+            <name>Lima</name>
+            <longitude>-77.05</longitude>
+            <latitude>-12.0833</latitude>
+            <population year="93">6321173</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-18" capital="cty-cid-cia-Peru-7" country="PE">
+         <name>Loreto</name>
+         <area>368851</area>
+         <population>789235</population>
+         <city id="cty-cid-cia-Peru-7" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-18">
+            <name>Iquitos</name>
+            <longitude>-73.2</longitude>
+            <latitude>-3.4</latitude>
+            <population year="93">274759</population>
+            <located_at watertype="river" river="river-Amazonas"/>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-19" capital="cty-cid-cia-Peru-Puerto-Maldonado"
+                country="PE">
+         <name>Madre de Dios</name>
+         <area>85182</area>
+         <population>74306</population>
+         <city id="cty-cid-cia-Peru-Puerto-Maldonado" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-19">
+            <name>Puerto Maldonado</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-20" capital="cty-cid-cia-Peru-Moquegua" country="PE">
+         <name>Moquegua</name>
+         <area>15733</area>
+         <population>137747</population>
+         <city id="cty-cid-cia-Peru-Moquegua" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-20">
+            <name>Moquegua</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-21" capital="cty-cid-cia-Peru-Cerro-de-Pasco"
+                country="PE">
+         <name>Pasco</name>
+         <area>25319</area>
+         <population>243366</population>
+         <city id="cty-cid-cia-Peru-Cerro-de-Pasco" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-21">
+            <name>Cerro de Pasco</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-22" capital="cty-cid-cia-Peru-6" country="PE">
+         <name>Piura</name>
+         <area>35892</area>
+         <population>1468337</population>
+         <city id="cty-cid-cia-Peru-6" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-22">
+            <name>Piura</name>
+            <population year="93">277964</population>
+         </city>
+         <city id="cty-cid-cia-Peru-14" country="PE" province="prov-cid-cia-Peru-22">
+            <name>Sullana</name>
+            <population year="93">147361</population>
+         </city>
+         <city id="cty-cid-cia-Peru-21" country="PE" province="prov-cid-cia-Peru-22">
+            <name>Talara</name>
+            <population year="93">82228</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-23" capital="cty-cid-cia-Peru-20" country="PE">
+         <name>Puno</name>
+         <area>71999</area>
+         <population>1144151</population>
+         <city id="cty-cid-cia-Peru-20" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-23">
+            <name>Puno</name>
+            <population year="93">91877</population>
+         </city>
+         <city id="cty-cid-cia-Peru-15" country="PE" province="prov-cid-cia-Peru-23">
+            <name>Juliaca</name>
+            <population year="93">142576</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-24" capital="cty-cid-cia-Peru-Moyobamba" country="PE">
+         <name>San Martin</name>
+         <area>51253</area>
+         <population>627781</population>
+         <city id="cty-cid-cia-Peru-Moyobamba" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-24">
+            <name>Moyobamba</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-25" capital="cty-cid-cia-Peru-11" country="PE">
+         <name>Tacna</name>
+         <area>16075</area>
+         <population>245843</population>
+         <city id="cty-cid-cia-Peru-11" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-25">
+            <name>Tacna</name>
+            <population year="93">174336</population>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-26" capital="cty-cid-cia-Peru-Tumbes" country="PE">
+         <name>Tumbes</name>
+         <area>4669</area>
+         <population>173616</population>
+         <city id="cty-cid-cia-Peru-Tumbes" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-26">
+            <name>Tumbes</name>
+         </city>
+      </province>
+      <province id="prov-cid-cia-Peru-27" capital="cty-cid-cia-Peru-12" country="PE">
+         <name>Ucayali</name>
+         <area>102410</area>
+         <population>364596</population>
+         <city id="cty-cid-cia-Peru-12" is_state_cap="yes" country="PE"
+               province="prov-cid-cia-Peru-27">
+            <name>Pucallpa</name>
+            <population year="93">172286</population>
+            <located_at watertype="river" river="river-Amazonas"/>
+         </city>
+      </province>
+   </country>
+   <country car_code="ETH" area="1127127" capital="cty-Ethiopia-Addis-Ababa"
+            memberships="org-ACP org-AfDB org-CCC org-ECA org-FAO org-G-24 org-G-77 org-IGADD org-IAEA org-IBRD org-ICAO org-Interpol org-IDA org-IFRCS org-IFC org-IFAD org-ILO org-IMO org-IMF org-IOC org-ISO org-ICRM org-ITU org-Intelsat org-NAM org-OAU org-UN org-UNESCO org-UNIDO org-UNHCR org-UNU org-UPU org-WFTU org-WHO org-WMO org-WToO org-WTrO">
+      <name>Ethiopia</name>
+      <population>57171662</population>
+      <population_growth>2.72</population_growth>
+      <infant_mortality>122.8</infant_mortality>
+      <gdp_total>24200</gdp_total>
+      <gdp_agri>48</gdp_agri>
+      <gdp_ind>15</gdp_ind>
+      <gdp_serv>37</gdp_serv>
+      <inflation>10</inflation>
+      <government>federal republic</government>
+      <encompassed continent="africa" percentage="100"/>
+      <ethnicgroups percentage="4">Afar</ethnicgroups>
+      <ethnicgroups percentage="6">Somali</ethnicgroups>
+      <ethnicgroups percentage="40">Oromo</ethnicgroups>
+      <ethnicgroups percentage="9">Sidamo</ethnicgroups>
+      <ethnicgroups percentage="6">Shankella</ethnicgroups>
+      <ethnicgroups percentage="2">Gurage</ethnicgroups>
+      <ethnicgroups percentage="32">Amhara Tigrean</ethnicgroups>
+      <religions percentage="45">Muslim</religions>
+      <religions percentage="35">Christian Orthodox</religions>
+      <border country="SUD" length="1606"/>
+      <border country="DJI" length="337"/>
+      <border country="ER" length="912"/>
+      <border country="SP" length="1626"/>
+      <border country="EAK" length="830"/>
+      <city id="cty-Ethiopia-Addis-Ababa" is_country_cap="yes" country="ETH">
+         <name>Addis Ababa</name>
+         <longitude>38.75</longitude>
+         <latitude>9</latitude>
+         <population year="94">2316400</population>
+      </city>
+      <city id="cty-cid-cia-Ethiopia-3" country="ETH">
+         <name>Dire Dawa</name>
+         <population year="94">194587</population>
+      </city>
+      <city id="cty-cid-cia-Ethiopia-4" country="ETH">
+         <name>Gonder</name>
+         <population year="94">166593</population>
+      </city>
+      <city id="cty-cid-cia-Ethiopia-5" country="ETH">
+         <name>Nazret</name>
+         <population year="94">147088</population>
+      </city>
+      <city id="cty-cid-cia-Ethiopia-6" country="ETH">
+         <name>Harer</name>
+         <population year="94">122932</population>
+      </city>
+      <city id="cty-cid-cia-Ethiopia-7" country="ETH">
+         <name>Mekele</name>
+         <population year="94">119779</population>
+      </city>
+      <city id="cty-cid-cia-Ethiopia-8" country="ETH">
+         <name>Jima</name>
+         <population year="94">119717</population>
+      </city>
+      <city id="cty-cid-cia-Ethiopia-9" country="ETH">
+         <name>Dese</name>
+         <population year="94">117268</population>
+      </city>
+      <city id="cty-cid-cia-Ethiopia-10" country="ETH">
+         <name>Bahir Dar</name>
+         <population year="94">115531</population>
+      </city>
+      <city id="cty-cid-cia-Ethiopia-11" country="ETH">
+         <name>Debrezit</name>
+         <population year="94">105963</population>
+      </city>
+   </country>
+   <continent id="europe">
+      <name>Europe</name>
+      <area>9562488</area>
+   </continent>
+   <continent id="asia">
+      <name>Asia</name>
+      <area>45095292</area>
+   </continent>
+   <continent id="australia">
+      <name>Australia/Oceania</name>
+      <area>8503474</area>
+   </continent>
+   <continent id="africa">
+      <name>Africa</name>
+      <area>30254708</area>
+   </continent>
+   <continent id="america">
+      <name>America</name>
+      <area>39872000</area>
+   </continent>
+   <organization id="org-ACP" headq="cty-Belgium-Brussels">
+      <name>African, Caribbean, and Pacific Countries</name>
+      <abbrev>ACP</abbrev>
+      <established>1976-04-01</established>
+      <members type="member"
+               country="PNG AG BS BDS BZ WD DOM RH WG JA KN WL WV TT FJI KIR SLB TO TUV VU WS GUY SME RMM RIM RN ANG RCB NAM ZRE Z BEN BF WAN RT RB ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY TL COOK NIUE"/>
+   </organization>
+   <organization id="org-AfDB" headq="cty-Abidjan">
+      <name>African Development Bank</name>
+      <abbrev>AfDB</abbrev>
+      <established>1963-08-04</established>
+      <members type="regional member"
+               country="ET DZ LAR RMM RIM MA RN TN ANG RCB NAM ZRE Z BEN BF WAN RT RB ZW CI GH BI RWA EAT CAM RCA TCH GQ G CV SUD COM RG LB DJI ER ETH SP EAK WAG SN GNB WAL EAU LS RM MW MOC MS SD STP SY"/>
+      <members type="nonregional member"
+               country="F E A D I CH B NL DK SF N S P GB TJ IND KWT SA J ROK UAE CDN USA RA BR"/>
+   </organization>
+   <organization id="org-ACCT" headq="cty-France-Paris">
+      <name>Agency for Cultural and Technical Cooperation</name>
+      <abbrev>ACCT</abbrev>
+      <established>1970-03-21</established>
+      <members type="member"
+               country="F B L BG RO MC LAO K VN RL CDN WD RH VU RMM RN TN RCB ZRE BEN BF RT CI BI RWA CAM RCA TCH GQ G COM RG DJI SN RM MS SY"/>
+      <members type="associate member" country="ET WL RIM MA GNB"/>
+   </organization>
+   <mountain id="mount-Sajama" country="BOL" type="volcano">
+      <name>Sajama</name>
+      <mountains>Andes</mountains>
+      <height>6542</height>
+      <longitude>-68.9</longitude>
+      <latitude>-18.1</latitude>
+   </mountain>
+   <mountain id="mount-Licancabur" country="BOL RCH" type="volcano">
+      <name>Licancabur</name>
+      <mountains>Andes</mountains>
+      <height>5920</height>
+      <longitude>-67.9</longitude>
+      <latitude>-22.8</latitude>
+   </mountain>
+   <mountain id="mount-Llullaillaco" country="RA RCH" type="volcano">
+      <name>Llullaillaco</name>
+      <mountains>Andes</mountains>
+      <located country="RA" province="prov-cid-cia-Argentina-24"/>
+      <height>6739</height>
+      <longitude>-68.5</longitude>
+      <latitude>-24.7</latitude>
+   </mountain>
+   <mountain id="mount-OjosdelSalado" country="RA RCH" type="volcano">
+      <name>Ojos del Salado</name>
+      <mountains>Andes</mountains>
+      <located country="RA" province="prov-cid-cia-Argentina-24"/>
+      <height>6893</height>
+      <longitude>-68.5</longitude>
+      <latitude>-27.1</latitude>
+   </mountain>
+   <mountain id="mount-MontePissis" country="RA" type="volcanic">
+      <name>Monte Pissis</name>
+      <mountains>Andes</mountains>
+      <located country="RA" province="prov-cid-cia-Argentina-12 prov-cid-cia-Argentina-24"/>
+      <height>6795</height>
+      <longitude>-68.85</longitude>
+      <latitude>-27.8</latitude>
+   </mountain>
+   <mountain id="mount-Aconcagua" country="RA">
+      <name>Aconcagua</name>
+      <mountains>Andes</mountains>
+      <located country="RA" province="prov-cid-cia-Argentina-13"/>
+      <height>6962</height>
+      <longitude>-70.0</longitude>
+      <latitude>-32.65</latitude>
+   </mountain>
+   <mountain id="mount-Tupungato" country="RA" type="volcano">
+      <name>Tupungato</name>
+      <mountains>Andes</mountains>
+      <located country="RA" province="prov-cid-cia-Argentina-13"/>
+      <height>6550</height>
+      <longitude>-69.870</longitude>
+      <latitude>-33.35</latitude>
+   </mountain>
+   <mountain id="mount-AgulhasNegras" country="BR">
+      <name>Pico de Agulhas Negras</name>
+      <mountains>Brazilian Highlands</mountains>
+      <located country="BR" province="prov-cid-cia-Brazil-13 prov-cid-cia-Brazil-19"/>
+      <height>2791</height>
+      <longitude>-44.65</longitude>
+      <latitude>-22.4</latitude>
+   </mountain>
+
+   <desert id="desert-Kalahari" country="NAM RB RSA ANG Z">
+      <name>Kalahari</name>
+      <located country="ANG" province="prov-cid-cia-Angola-15 prov-cid-cia-Angola-14"/>
+      <located country="Z" province="prov-cid-cia-Zambia-9 prov-cid-cia-Zambia-10"/>
+      <located country="RSA" province="prov-cid-cia-South-Africa-9"/>
+      <area>1200000</area>
+      <longitude>21</longitude>
+      <latitude>-22</latitude>
+   </desert>
+   <desert id="desert-Namib" country="NAM" type="sand">
+      <name>Namib</name>
+      <area>95000</area>
+      <longitude>15</longitude>
+      <latitude>-25</latitude>
+   </desert>
+   <desert id="desert-Ferlo" country="SN">
+      <name>Ferlo</name>
+      <located country="SN" province="prov-cid-cia-Senegal-9 prov-cid-cia-Senegal-8 prov-cid-cia-Senegal-7"/>
+      <area>70000</area>
+      <longitude>-14</longitude>
+      <latitude>15</latitude>
+   </desert>
+   <desert id="desert-Trarza" country="RIM">
+      <name>Trarza</name>
+      <area>50000</area>
+      <longitude>-15</longitude>
+      <latitude>18</latitude>
+   </desert>
+   <desert id="desert-Ouarane" country="RIM">
+      <name>Erg Ouarane</name>
+      <area>80000</area>
+      <longitude>-11</longitude>
+      <latitude>21</latitude>
+   </desert>
+   <desert id="desert-Maqteir" country="RIM">
+      <name>Erg Maqteir</name>
+      <area>40000</area>
+      <longitude>-11</longitude>
+      <latitude>22</latitude>
+   </desert>
+   <desert id="desert-Saguia_el-Hamra" country="WSA">
+      <name>Saguia el-Hamra</name>
+      <area>25000</area>
+      <longitude>-10</longitude>
+      <latitude>27</latitude>
+   </desert>
+ 
+</mondial>

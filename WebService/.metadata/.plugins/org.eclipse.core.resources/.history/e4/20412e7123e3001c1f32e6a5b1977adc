@@ -1,0 +1,14 @@
+package example.ajax.pizza;
+
+public class Customer {
+	private String name;
+	private Address address;
+	
+	public Customer() {		// default constructor 
+	
+	}
+	
+	public Customer(String name, Address address) {
+		
+	}
+}

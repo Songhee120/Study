@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<xsd:schema	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   
+  <xsd:element name="booklist" type="ctBooklist"/>
+  
+	<xsd:complexType name="ctBooklist">
+		<xsd:sequence>
+			<xsd:element name="book" type="ctBook" maxOccurs="unbounded"/>
+		</xsd:sequence>		
+	</xsd:complexType>
+
+	<xsd:complexType name="ctBook">
+		<xsd:sequence>
+			<xsd:group ref="titleAndAuthorGroup"></xsd:group>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="ctBook2">
+		<xsd:complexContent>
+			<xsd:extension base="ctBook">
+				<xsd:sequence>
+					<xsd:element name="publisher" type="xsd:string"/>
+					<xsd:element name="price" type="xsd:int"/>
+				</xsd:sequence>
+				<xsd:attribute name="id" type="xsd:ID"/>
+				<xsd:attribute name="kind" type="xsd:string"/></xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="ctBook3">
+		<xsd:complexContent>
+			<xsd:restriction base="ctBook2">
+				<xsd:sequence><!--
+					<xsd:element name="title" type="xsd:string"/>
+					<xsd:element name="author" type="xsd:string"/>
+					-->
+					<xsd:group ref="titleAndAuthorGroup"></xsd:group>
+					<xsd:element name="publisher" type="xsd:string" default="Macgrow-Hill"/>	
+					<xsd:element name="price">
+						<xsd:simpleType>
+							<xsd:restriction base="xsd:int">
+								<xsd:minInclusive value="0"/>
+								<xsd:maxInclusive value="100000"/>
+							</xsd:restriction>
+						</xsd:simpleType>						
+					</xsd:element>
+				</xsd:sequence>			
+				<xsd:attribute name="kind">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:enumeration value="컴퓨터" />
+							<xsd:enumeration value="소설" />
+							<xsd:enumeration value="자연과학"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:attribute>				
+			</xsd:restriction>			
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+
+	<xsd:group name="titleAndAuthorGroup">
+		<xsd:sequence>
+			<xsd:element name="title" type="xsd:string"/>
+			<xsd:element name="author" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:group>
+
+</xsd:schema>

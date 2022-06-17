@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;books.xml&apos; to &apos;hw01&apos;" description="Move &apos;books.xml&apos; to &apos;hw01&apos;" destination="hw01" element1="books.xml" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1650201005531" updateReferences="true"/>
+</session>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/books"
+    xmlns:bks="http://www.example.org/books">
+
+  <element name="books" type="bks:BooksForm" />
+
+  <complexType name="BooksForm">
+    <sequence>
+      <element name="book" type="bks:BookForm" minOccurs="0" maxOccurs="unbounded" />
+      </sequence>
+  </complexType>
+
+  <complexType name="BookForm">
+    <sequence>
+      <element name="author" type="string" />
+      <element name="title" type="string" />
+      <element name="genre" type="string" />
+      <element name="price" type="float" />
+      <element name="publish_date" type="date" />
+      <element name="description" type="string" />
+    </sequence>
+    <attribute name="id" type="ID" />
+  </complexType>
+</schema>

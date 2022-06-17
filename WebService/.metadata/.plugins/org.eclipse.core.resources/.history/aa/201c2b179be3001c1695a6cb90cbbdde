@@ -1,0 +1,55 @@
+<%@ page import="example.ajax.pizza.*"
+ import="java.util.*"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@	contentType="text/html; charset=utf-8"%>
+<%
+Customer[] customers = new Customer[4];
+
+// Set up some addresses to use
+customers[0] = new Customer("Doug Henderson", new Address("7804 Jumping Hill Lane", "Dallas", "Texas", "75218"),
+		"010-111-1111", "no recent order");
+customers[1] = new Customer("Mary Jenkins", new Address("7081 Teakwood #24C", "Dallas", "Texas", "75182"),
+		"010-222-2222", "no recent order");
+customers[2] = new Customer("John Jacobs", new Address("234 East Rutherford Drive", "Topeka", "Kansas", "66608"),
+		"010-333-3333", "no recent order");
+customers[3] = new Customer("Happy Traum", new Address("876 Links Circle", "Topeka", "Kansas", "66608"),
+		"010-444-4444", "no recent order");
+
+//application에서 "custMap" 객체 검색
+Map<String, Customer> custMap = (Map<String, Customer>)application.getAttribute("custMap");
+
+//custMap 못찾으면 생성
+if(custMap == null){
+	custMap = new HashMap<String, Customer>();
+	for(Customer c : customers){
+		custMap.put(c.getPhone(), c);
+	}
+	application.setAttribute("custMap", custMap);
+}
+
+String phone = request.getParameter("phone");
+System.out.println("phone number: " + phone);
+
+Customer c = custMap.get(phone);
+if(c != null) {
+%>
+<result>
+	<name><%=c.getName() %></name>
+	<address>
+		<street><%=c.getAddress().getStreet() %></street>
+		<city><%=c.getAddress().getCity() %></city>
+		<state><%=c.getAddress().getState() %></state>
+		<zipCode><%=c.getAddress().getZipCode() %></zipCode>
+	</address>
+</result>
+<%	
+}
+
+// Pick a customer
+//int i = (int) (Math.random() * 4);
+//Customer c = customers[i];
+//String result = c.getName() + "\n" + c.getAddress();
+//
+//System.out.println("result: " + result);
+//out.print(result);
+%>

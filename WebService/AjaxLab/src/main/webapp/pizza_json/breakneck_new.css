@@ -1,0 +1,30 @@
+body {
+  color: darkred;
+  font-family: "Geneva", sans-serif;
+  font-size: 14;
+  margin: 2em;
+}
+
+p {
+  margin: 1.8em;
+}
+
+#main-page {
+  border: double darkred;
+  padding: 1em;
+}
+
+.customer-info {
+  font-weight: bold;
+}
+
+.customer-data {
+  color: black;
+}
+
+.tagline {
+  text-align: center;
+  color: black;
+  font-size: .8em;
+  font-style: italic;
+}

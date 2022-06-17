@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;XMLExamples/hw01/BookML.dtd&apos; to &apos;bookML.dtd&apos;" description="Rename resource &apos;BookML.dtd&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="hw01/BookML.dtd" name="bookML.dtd" stamp="1648794393747" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;XMLExamples/hw01/Books.xml&apos; to &apos;books.xml&apos;" description="Rename resource &apos;Books.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="hw01/Books.xml" name="books.xml" stamp="1648794401257" updateReferences="true"/>
+</session>

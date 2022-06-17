@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/bookML"
+	xmlns:tns="http://www.example.org/bookML"
+	elementFormDefault="qualified">
+
+	<include schemaLocation="bookTypes.xsd"></include>
+
+	<notation name="jpeg" public="image/jpeg"
+		system="photoshop.exe" />
+	<notation name="png" public="image/png"
+		system="photoshop.exe" />
+
+	<complexType name="bookType">
+		<sequence>
+			<element name="title" type="string"></element>
+			<element name="author" type="string" minOccurs="1"
+				maxOccurs="unbounded">
+			</element>
+			<element name="publisher" type="string"></element>
+			<element name="publicationDate" type="tns:bookDateType"></element>
+			<element name="price" type="tns:bookPriceType"></element>
+			<element name="discountRate" type="tns:discountRateType"></element>
+			<element name="pages" type="string"></element>
+			<element name="field" type="string"></element>
+			<element name="translation" type="tns:translationType"
+				minOccurs="0" maxOccurs="1">
+			</element>
+			<element name="category" type="tns:categoryType"></element>
+		</sequence>
+		<attribute name="isbn" type="tns:isbnType"></attribute>
+	</complexType>
+
+	<simpleType name="positiveInteger">
+		<restriction base="int">
+			<minExclusive value="0"></minExclusive>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="isbnType1">
+		<restriction base="string"></restriction>
+	</simpleType>
+
+	<complexType name="ebookType">
+		<complexContent>
+			<extension base="tns:bookType">
+				<sequence>
+					<element name="format" type="string"></element>
+					<element name="fsize" type="tns:fileSizeType"></element>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+
+	<complexType name="newEBookType">
+		<sequence>
+			<element name="title" type="string"></element>
+			<element name="author" type="string" minOccurs="1"
+				maxOccurs="unbounded">
+			</element>
+			<element name="publisher" type="string"></element>
+			<element name="publicationDate" type="tns:bookDateType"></element>
+			<element name="price" type="tns:bookPriceType"></element>
+			<element name="discountRate" type="tns:discountRateType"></element>
+			<element name="pages" type="string"></element>
+			<element name="field" type="string"></element>
+			<element name="translation" type="tns:translationType"
+				minOccurs="0" maxOccurs="1">
+			</element>
+			<element name="category" type="tns:categoryType"></element>
+			<element name="format" type="string"></element>
+			<element name="fsize" type="tns:fileSizeType"></element>
+		</sequence>
+	</complexType>
+
+	<element name="bookCatalog">
+		<complexType>
+			<sequence>
+				<element ref="tns:bookList"></element>
+				<element ref="tns:bookCategory"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="bookList">
+		<complexType>
+			<sequence>
+				<element name="book" type="tns:bookType"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="bookCategory" type="tns:bookCategoryType"></element>
+
+
+
+	<simpleType name="stType">
+		<restriction base="NOTATION">
+<!-- 			<enumeration value="jpeg" />
+			<enumeration value="png" /> -->
+		</restriction>
+	</simpleType>
+</schema>

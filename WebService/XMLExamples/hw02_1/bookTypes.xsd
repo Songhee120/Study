@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.dongduk.ac.kr/bookML/2.0" 
+	xmlns:bml="http://www.dongduk.ac.kr/bookML/2.0" elementFormDefault="qualified">
+	
+	<simpleType name="ISBNType">
+		<annotation>
+			<documentation>book의 ID(ISBN) attribute에 대한 타입 정의</documentation>
+		</annotation>
+		<restriction base="string">
+			<pattern value="(97(8|9)-)?\d{9}-\d"/> 
+		</restriction>
+  	</simpleType>
+	
+	<complexType name="priceType">
+		<annotation>
+			<documentation>도서 가격에 관한 데이터 타입 정의. currency 속성의 기본값은 "won"</documentation>
+		</annotation>
+		<sequence>
+			<element name="listPrice" type="decimal"/>
+			<element name="discountPrice" type="decimal"/>
+		</sequence>
+		<attribute name="currency" type="bml:currencyType" default="won"/>
+	</complexType>
+	
+	<simpleType name="currencyType">
+		<annotation>
+			<documentation>가격의 통화(currency)를 위한 데이터 타입 정의</documentation>
+		</annotation>
+		<restriction base="string">
+			<enumeration value="won"/>
+			<enumeration value="dollar"/>
+			<enumeration value="yen"/>
+		</restriction>
+  	</simpleType>
+	
+	<simpleType name="discountRateType">
+		<annotation>
+			<documentation>책의 할인율을 나타냄</documentation>
+		</annotation>
+		<restriction base="integer">
+			<minInclusive value="0" />
+			<maxInclusive value="80" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="pagesType">
+		<annotation>
+			<documentation>책의 페이지 수를 나타냄</documentation>
+		</annotation>
+		<restriction base="integer">
+			<minInclusive value="1"/>
+			<maxInclusive value="1000"/>
+		</restriction>
+	</simpleType>
+	
+	<complexType name="fileFormatType">
+		<annotation>
+			<documentation>eBook의 파일 형식을 나타냄</documentation>
+		</annotation>
+		<attribute name="value">
+			<simpleType>
+				<restriction base="string">
+					<enumeration value="EPUB"/>
+					<enumeration value="PDF"/>
+					<enumeration value="StreamText"/>
+					<enumeration value="StreamImage"/>
+				</restriction>
+			</simpleType>
+		</attribute>
+	</complexType>
+	
+	<complexType name="fileSizeType">
+		<annotation>
+			<documentation>eBook의 파일 크기를 나타냄</documentation>
+		</annotation>
+		<simpleContent>
+			<extension base="decimal">
+				<attribute name="unit" type="string" />
+			</extension>
+		</simpleContent>
+	</complexType>
+   	
+    <!-- 표지그림을 위한 Notation 선언 -->
+	<notation name="bmp" public="img/bmp" system="photoshop.exe"/>
+	<notation name="gif" public="img/gif" system="photoshop.exe"/>
+	<notation name="jpeg" public="img/jpeg" system="photoshop.exe"/>
+
+	<!-- NOTATION을 기반으로 표지그림 타입 정의 -->
+	<complexType name="bookCoverType">
+	    <attribute name="src" type="anyURI"/>
+	    <attribute name="type">
+	    	<simpleType>
+	   			<restriction base="NOTATION">
+	 				<enumeration value="bml:bmp"/>
+					<enumeration value="bml:gif"/>
+					<enumeration value="bml:jpeg"/>
+	    		</restriction>
+			 	</simpleType>
+		</attribute>
+  	</complexType>  
+   	
+  	<attributeGroup name="dateAttrGroup">
+		<annotation>
+			<documentation>출판일/개정일을 위한 속성 그룹 정의</documentation>
+		</annotation>
+		<attribute name="year" use="required">
+			<simpleType>
+				<restriction base="gYear">
+					<minInclusive value="1900"/>
+					<maxInclusive value="2021"/>
+				</restriction>
+			</simpleType>
+		</attribute>
+		<attribute name="month" use="required">
+			<simpleType>
+				<annotation>
+					<documentation>주의: gMonth를 base로 하면 '--01' 형식을 사용해야 함</documentation>
+				</annotation>
+				<restriction base="string"> 
+					<pattern value="0[1-9]|1[0-2]"/>				
+				</restriction>
+			</simpleType>
+		</attribute>
+		<attribute name="day" use="required">
+			<simpleType>
+				<annotation>
+					<documentation>주의: gDay를 base로 하면 '---01' 형식을 사용해야 함</documentation>
+				</annotation>
+				<restriction base="string">
+					<pattern value="0[1-9]|[1-2][0-9]|3[01]"/>				
+				</restriction>
+			</simpleType>
+		</attribute>
+	</attributeGroup>	
+</schema>
