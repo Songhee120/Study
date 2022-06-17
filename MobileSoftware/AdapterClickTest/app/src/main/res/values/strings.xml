@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AdapterClickTest</string>
+    <string name="insert_btn">추가</string>
+    <string name="update_btn">수정</string>
+    <string name="del_msg">※ 항목 롱클릭 시 삭제</string>
+</resources>

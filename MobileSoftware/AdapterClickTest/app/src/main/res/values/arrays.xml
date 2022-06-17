@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subjectList">
+        <item>모바일소프트웨어</item>
+        <item>네트워크</item>
+        <item>웹서비스</item>
+        <item>운영체제</item>
+        <item>웹프로그래밍2</item>
+    </string-array>
+</resources>
